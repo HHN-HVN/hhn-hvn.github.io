@@ -3,7 +3,7 @@
         background: #181818;
     }
     h1 {
-        color: #fff;
+        color: #0000;
     }
 }
 
@@ -16,6 +16,34 @@ body {
     text-align: center;
     color: #1e1e1e;
 }
+@-webkit-keyframes my {
+	 0% { color: #F8CD0A; } 
+	 50% { color: #909;  } 
+	 100% { color: #F8CD0A;  } 
+ }
+ @-moz-keyframes my { 
+	 0% { color: #F8CD0A;  } 
+	 50% { color: #909;  }
+	 100% { color: #F8CD0A;  } 
+ }
+ @-o-keyframes my { 
+	 0% { color: #F8CD0A; } 
+	 50% { color: #909; } 
+	 100% { color: #F8CD0A;  } 
+ }
+ @keyframes my { 
+	 0% { color: #F8CD0A;  } 
+	 50% { color: #909;  }
+	 100% { color: #F8CD0A;  } 
+ } 
+ .test {
+         font-size:24px;
+         font-weight:bold;
+	 -webkit-animation: my 700ms infinite;
+	 -moz-animation: my 700ms infinite; 
+	 -o-animation: my 700ms infinite; 
+	 animation: my 700ms infinite;
+}
 
 h1 {
     font-size: 24px;
@@ -24,7 +52,7 @@ h1 {
 }
 
 a {
-    color: #36a6ff;
+    color: #000;
     webkit-transition: all 0.3s ease-in-out;
     -moz-transition: all 0.3s ease-in-out;
     -o-transition: all 0.3s ease-in-out;
@@ -43,7 +71,7 @@ a {
 }
 
 a:hover {
-    color: #0079da;
+    color: #0079;
 }
 
 header {
