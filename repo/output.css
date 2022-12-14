@@ -1,8 +1,7 @@
 @media (prefers-color-scheme: dark) {
     body {
-	background: url(.img/nen.png) no-repeat center center fixed;
-	background-size: cover;
-}
+        background: #181818;
+    }
     h1 {
         color: #fff;
     }
@@ -44,7 +43,7 @@ a {
 }
 
 a:hover {
-    color: #000;
+    color: #0079da;
 }
 
 header {
