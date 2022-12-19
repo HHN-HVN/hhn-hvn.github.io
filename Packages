@@ -1,0 +1,658 @@
+Package: com.hhnios.accdemo
+Architecture: iphoneos-arm
+Version: 0.2.2
+Priority: optional
+Section: Tweaks
+Maintainer: Long Mến
+Installed-Size: 672
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: ./DEB/com.hhnios.accdemo_0.2.2_iphoneos-arm.deb
+Size: 155304
+MD5sum: 4dfc077f15659c3dc307e45dd9d942a8
+SHA1: 2b78397bb8e45f9164bf6a440c1db50a525543fc
+SHA256: fadadd0fc1c7f89d276105a41267f0b435f98ff59bd7f02ebd45ad7424b6b049
+SHA512: 39b4f8876cbdb7175d870ff229d9cd4afbdf1925568327d4383832a113365cb197c3e8fb23ca48a2cbea3edde4c4f6b5cbcb553053c24a12dbe081b183406ca0
+Homepage: http://hhnios.github.io
+Description: Công cụ tăng tốc trò chơi Uniform / cocos2d
+Tag: purpose::extension
+Name: accDemo
+Author: Brend0n <brendonjkding@126.com>
+dev: brend0n
+
+Package: com.hhnios.appsyncunified
+Architecture: iphoneos-arm
+Version: 104.0
+Section: Tweaks
+Maintainer: @hhnios
+Installed-Size: 732
+Provides: appsync
+Depends: firmware (>= 5.0), mobilesubstrate (>= 0.9.5100), firmware (<= 14.8.1)
+Conflicts: net.angelxwind.appsyncunified, us.hackulo.appsync50, us.hackulo.appsync50plus, com.hackyouriphone.appsync7, com.teiron.ppsync, appsync50plus2.25pp, com.linusyang.appsync, com.sull.appsyncunified, com.sull.appsyncunifiedbeta, com.xsellize.appsync50, com.xsellize.appsync50plus, appsync50plus.178, appsync50plus2.178, cydia.net.angelxwind.appsyncunified, com.ifucker.appsync, com.sexyphonetech.appsyncunified, appsyncunifiedofficial, org.digbick.asufixed, cn.mingmei.asu623517234615234813, science.xnu.substitute
+Replaces: us.hackulo.appsync50
+Filename: ./DEB/com.hhnios.appsyncunified_104.0_iphoneos-arm.deb
+Size: 89574
+MD5sum: fc7964fd2715b0e690ac8247554fc8eb
+SHA1: 16b871c727187228c427e2aeaa39a0b5ac4a8fcf
+SHA256: 11b1fec9f65785e406aaa24ccd6ced64157b578dc557b3ba97fd58a8deac36de
+SHA512: 0270db899465787cfb14def3189794ede905d90e62b8512dea41fa0ac9d9291e93db95d11ea5827011ed9e5e53f71e94ad6fe0c0f316a4f1cc014eff23bb8b75
+Description: Cài đặt tập tin .iPA trực tiếp trên thiết bị của bạn.
+Name: AppSync Unified
+Author: Linus Yang, Karen/あけみ <karen@akemi.ai>
+
+Package: com.hhnios.beautifulgirl
+Architecture: iphoneos-arm
+Version: 0.1.0
+Section: Ảnh nền
+Maintainer: HHN iOS
+Installed-Size: 964
+Depends: mobilesubstrate
+Filename: ./DEB/com.hhnios.beautifulgirl_0.1.0_iphoneos-arm.deb
+Size: 10135082
+MD5sum: dda66077c89a7538ce3d88384968315d
+SHA1: e8eb3ccf08d5dec4e129f988b6ae6fcf573d0e15
+SHA256: dd7efce82ff39eebf56555ecfc882727f7a93444bcc94b4ae088d87522d2e84b
+SHA512: 822b6f08b599ff1cf29199d5ece544573a132cd3227416a296c0bfd0847e8cf11ee5030a99f1c5fb420573a42b998cdd29126c96e3719cd5e2d097f22794ee7b
+Homepage: https://hhnios.github.io
+Description: Hình Nền Girl Xinh Hoạt Hình
+Name: Cartoon Beautiful Girl Wallpaper
+Author: HHNiOS
+
+Package: com.hhnios.bypassmbbank
+Architecture: iphoneos-arm
+Version: 1.0-20
+Section: Tweaks
+Maintainer: @hhnios
+Installed-Size: 644
+Depends: mobilesubstrate
+Filename: ./DEB/com.hhnios.bypassmbbank_1.0-20_iphoneos-arm.deb
+Size: 258144
+MD5sum: 1ff04a0e1bec0d8c23b59433607a0ca5
+SHA1: c7e5284d928eaece320d93337901ef05d8ca747d
+SHA256: 4eaf52a565532364c75d300161b2d12d8899dafa496661dad3b972897d548c6e
+SHA512: bf349988906cffd1f811f5668f2da65e977b1c66f1f4a4873eae9e99df4ca0c9a899ec0e7ca36cfe453dc63aeca1370ca86138d54617c839a62662da77d75d30
+Description: Chặn phát hiện , ẩn jailbreaks cho MBBank
+Name: Bypass MBBank
+Author: IPALibrary <ipalibrary.info>
+
+Package: com.hhnios.cahighfps
+Architecture: iphoneos-arm
+Version: 1.1.0
+Section: Tweaks
+Maintainer: @hhnios
+Installed-Size: 140
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 7.0), com.opa334.altlist (>= 1.0.4)
+Conflicts: com.ps.cahighfps
+Filename: ./DEB/com.hhnios.cahighfps_1.1.0_iphoneos-arm.deb
+Size: 13958
+MD5sum: d4feae35bfb7a03812f924bfa5cb70f7
+SHA1: c2af8c0a5c39193ab16ba0ee26d6acee296e6ab5
+SHA256: 14e04a67c10d7df0f155eb808bd767b0ff09901f65c1d685956a4c56048d0111
+SHA512: 1bd5312ec85a1399d222f364cbe9525645a6cd5de4421d48c87b51feb236e198ae008536250e3ab0c374fea368b5151ca370b157ada379adcb6357a8b006a5d6
+Description: Làm cho ứng dụng sử dụng FPS cao nhất.
+Name: CAHighFPS
+Author: PoomSmart
+
+Package: com.hhnios.crackerxi+
+Architecture: iphoneos-arm
+Version: 1.1.1
+Section: System
+Maintainer: HHN iOS
+Depends: firmware (>= 11.0)
+Filename: ./DEB/com.hhnios.crackerxi+_1.1.1_iphoneos-arm.deb
+Size: 9962074
+MD5sum: a93964ff0dcb43f311a177a2b10428b6
+SHA1: 986dd0cd63bdf955375274c4a53d7d454c92169a
+SHA256: 36dd4cb5165e0ca7782a4389ece43e64135a62f0abb11fe6002683587772547c
+SHA512: e60bec98589b9481225fde4efb1ac8391756d249afb7c2de7972b1889e4417d7caecf199690c01cf6715b42aa60504a2afe89fd89d8c744a8a101e051330f349
+Description: Trích File IPA một ứng dụng bất kỳ mà bạn muốn. Hoạt động tốt từ ios 11 đến ios 14 đều ok .
+Name: CrackerXI+
+Author: c0pyn1nja
+
+Package: com.hhnios.cracktool4
+Architecture: iphoneos-arm
+Version: 4.0~beta10b
+Section: Utilities
+Maintainer: @hhnios
+Depends: sed, shell-cmds, system-cmds, uikittools (>= 1.1.4), coreutils-bin, coreutils, odcctools
+Filename: ./DEB/com.hhnios.cracktool4_4.0~beta10b_iphoneos-arm.deb
+Size: 2957330
+MD5sum: 39c07ae5cd84ea12b6e237ee51a7bf91
+SHA1: bb00a2419f9eeaddb69f3e6001d1ba1a2d10d4ac
+SHA256: 5f09ede833ee440d7029313a443a2f31570ebd1584c403f65962076fbe3a8970
+SHA512: 48fdfcb8eb43a50846b46296ac0b0c2fbd60275fac7475645b2eeb5d867b9316a04ae9ac92894e5de61917498cfd2ad60d06aa237b5abfbe841e12c6250d32d9
+Description: Crack Tweaks chỉ với một cú nhấp chuột
+Name: CrackTool4 (iOS 12/13/14)
+Author: julioverne
+
+Package: com.hhnios.dumpdecrypter
+Architecture: iphoneos-arm
+Version: 1.3-5.1
+Section: Utilities
+Maintainer: @hhnios
+Installed-Size: 1072
+Depends: firmware (>= 11.0), mobilesubstrate
+Conflicts: com.hoangtuan.dumpdecrypter, vn.tuandb.dumpdecrypter
+Filename: ./DEB/com.hhnios.dumpdecrypter_1.3-5.1_iphoneos-arm.deb
+Size: 1310540
+MD5sum: 76ff86ca3eb443a4aa46a679d7d5751d
+SHA1: ac6ce576be9b326cbdc6460680a466f3ea10c403
+SHA256: 2c46c811c84c8ef508cc1ef8554fab85532a939e10a85019c8f9b33a876e3dc4
+SHA512: f238c53c65df88c1e3a106b978765fdae1474423f0a6310776a0b01f5616b3b5ebaddd2a511720485a8bb6605a0653f4935677f07ba1d51c9bc8b195cdac6ac3
+Description: Giải mã ứng dụng iOS
+Name: DumpDecrypter
+Author: Netskao
+
+Package: com.hhnios.fakemodel
+Architecture: iphoneos-arm
+Version: 1.1-3
+Section: Tweaks
+Maintainer: HHN iOS
+Installed-Size: 623
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader
+Filename: ./DEB/com.hhnios.fakemodel_1.1-3_iphoneos-arm.deb
+Size: 182468
+MD5sum: 3eadf098570ed219c15ad9d14fad5163
+SHA1: 8588274897c203687b6612d1225fd85a2d1cadd2
+SHA256: 5e8d321ff3c1be64e574143a174f07806b6653262abf7d867092878bbc0f2f3c
+SHA512: 94bf5f542ca69f100aaba9277debeb3f3008075cb61a76c19acdd42d60ca67d2c761e7d31f9276b51685b41c059b2d54dd4876963dadc350d607556e78307f6b
+Description: Giả lập các máy đời cao cho các dòng máy đời thấp !
+Author: Netskao <admin@initnil.com>
+Name: FakeModel
+Depiction: Giả lập các máy đời cao cho các dòng máy đời thấp giống anywhere hỗ trợ all ios!
+SileoDepiction: Giả lập các máy đời cao cho các dòng máy đời thấp giống anywhere hỗ trợ all ios!
+
+Package: com.hhnios.filza64bit
+Architecture: iphoneos-arm
+Version: 3.9.0-2
+Section: Utilities
+Maintainer: @hhnios
+Installed-Size: 21788
+Depends: zip, unzip, gzip, unrar, p7zip, net.kenhtao.libfilza
+Conflicts: com.tigisoftware.filza, net.kenhtao.filza, com.ongcenh.filza
+Filename: ./DEB/com.hhnios.filza64bit_3.9.0-2_iphoneos-arm.deb
+Size: 8476098
+MD5sum: 0ac1499900e4a8e2e6aa4479104d0467
+SHA1: e333c65d9a7e0b2577303502e7409f30eab1ad49
+SHA256: a7f447869b2970a0944142b594144d746c29f6d4b040972ba2858057bf05a95a
+SHA512: 48ff598ee2a07d49d323c38b36b00b69eb3a08a54fd9d807c4e4bb654488f650d57f8260cdc76deb91a410b856a876e49fbb5f9d8adb188e56f96b0d5b7c76de
+Description: Trình quản lý tập tin cho iOS của bạn!
+Name: Filza File Manager (64)
+Author: TIGI Software
+
+Package: com.hhnios.flotinhhe
+Architecture: iphoneos-arm
+Version: 0.1
+Section: Mod skin
+Maintainer: HHNiOS
+Filename: ./DEB/com.hhnios.flotinhhe_0.1_iphoneos-arm.deb
+Size: 418282
+MD5sum: ae2ee2620f71bca10f5644026bf2b49b
+SHA1: d5c9eefeeabfdded2fd2b54eeda7b492c8498c54
+SHA256: 5ce0084c1c92d625c28da33c2f59dbc1460f4bd06209bf89b1a7731cf24743d9
+SHA512: 29dc008ba2b19b136ed4432ed3ff81c999ac7afe52e0f65e5a11409c4cea528e6252db6acae0fc0f799b9ba6279052ab53d4439172b10d0bf709fe62c076897c
+Description: MOD SKIN LIÊN QUÂN
+Name: Mod Skin Flo Tinh Hệ
+Author: HHN iOS
+
+Package: com.hhnios.frameios14
+Architecture: iphoneos-arm
+Version: 2.4.3
+Section: Tweaks
+Maintainer: HHN iOS
+Installed-Size: 8516
+Depends: mobilesubstrate,preferenceloader,firmware (>= 12.1.9)
+Filename: ./DEB/com.hhnios.frameios14_2.4.3_iphoneos-arm.deb
+Size: 2822052
+MD5sum: 9fdc11f98dcc461fc23b778cd3e5c409
+SHA1: ebe0f6ee6eb1c011104b9195b218c5239e1bd9aa
+SHA256: 0639552077db63fef960453e9aaa307a7806eb8fce0c61e932a95d4311591d3d
+SHA512: 1f5ea98b1e83aa114fc38ee9da9fb6c4a2197f64358589d12b124f11223e3db8270f525dd723302ff3c5ac5378385a5c91e79f06ed392a613318fe85b106cfe4
+Description: Thêm video vào màn hình chính & màn hình khoá trên iphone của bạn.
+Name: Frame (IOS 12-14)
+Author: Zerui Chen
+
+Package: com.hhnios.fullskin
+Architecture: iphoneos-arm
+Version: 0.1
+Section: Mod skin
+Maintainer: HHNiOS
+Filename: ./DEB/com.hhnios.fullskin_0.1_iphoneos-arm.deb
+Size: 9320530
+MD5sum: f00d271eaaa0daf227ec3a1920d5b998
+SHA1: 5f547dbd4290533366ffb822b780944cfdc3014c
+SHA256: d46eec2306d71004b1e5e556b6b468ab020859e366f1316e1ddc688a57b25f36
+SHA512: 6d461b98f9fc614713535840469d4ac49ab8e9cecc9d9710d60626ad0acab5cc2eb2a9ff64531b4b5572fd1b68f5719b20938032406f496cd6a84c2cd62b3746
+Description: MOD SKIN LIÊN QUÂN
+   - Nak lôi quang
+   - Bright hacker
+   - Raz bóng đá
+   - Mu siêu việt 2.0
+   - Elsu tận thế
+   - Ảii bạch kimochi
+   - Khỉ nhóc tì
+   - Flo âm nhạc
+   - Gấu nhồi bông
+   - Zata tác giả đương đại
+   - Omo tận thế
+   - Allain hack kiếm sĩ
+   - v.v
+Name: Mod Full Skin
+Author: HHN iOS
+
+Package: com.hhnios.fullskinv2
+Architecture: iphoneos-arm
+Version: 0.1
+Section: Mod skin
+Maintainer: HHNiOS
+Filename: ./DEB/com.hhnios.fullskinv2_0.1_iphoneos-arm.deb
+Size: 4657708
+MD5sum: 710e4f6af8b6596b6126fdc223fa413d
+SHA1: 5a8a6bc3f92800a794916c152ba7d13bb6dab36e
+SHA256: e6da19fa312406da27d57de04dc704b533874c4b194c2168f06761815f24a453
+SHA512: 6009467aa560a64b8875a9289492e63010cfe144515040988d3f6ba22d18025ce475f148f3e6056fee21143b58890c830654d5b97b7ef79a31feec6e6462ffda
+Description: MOD SKIN LIÊN QUÂN
+   - Nak lôi quang
+   - Flo tinh hệ
+   - Hayate tử thần
+   - Mu siu zịt 2.0
+   - Raz muay thái
+   - Phi dép siu zịt
+   - Elsu tận thế
+   - Ryo sú
+   - Omen tận thế
+   - Allain hack kiếm sĩ
+   - Airi bạch ảnh
+   - Richter sú
+   - v.v
+Name: Mod Full Skin V2
+Author: HHN iOS
+
+Package: com.hhnios.iMemScan
+Architecture: iphoneos-arm
+Version: 1.2.7
+Section: Utilities
+Filename: ./DEB/com.hhnios.iMemScan_1.2.7_iphoneos-arm.deb
+Size: 2511932
+MD5sum: 4162f1dfc71c1bd397b421311d3deaae
+SHA1: 38ed0f1a5fee0e2493a02265bb9e6947c283f10d
+SHA256: f73918eaabf1fac7ea9670abcda77de07e2eb5e970bfab49ba2be60aaaaf94b6
+SHA512: 2a9eb7add202892423724c4011936a6346c12e5d38b086782fad66327065215931094b20c25baf47ae445edc3d2867fa30c2f16965a1e7379a0c0621b5605b75
+Description: iMem Scan（以下简称 iMe）
+ 是一款内存基址调试工具.
+Name: iMemScan
+
+Package: com.hhnios.igoi
+Architecture: iphoneos-arm
+Version: 1.03
+Section: Tweaks
+Maintainer: HHN iOS
+Installed-Size: 836
+Depends: mobilesubstrate, preferenceloader, applist
+Filename: ./DEB/com.hhnios.igoi_1.03_iphoneos-arm.deb
+Size: 338506
+MD5sum: 872d7198b5f8c293b1646a5174989f18
+SHA1: ac293914a1acef70d17344ab4d2e8be251388a66
+SHA256: 56f0ec6a9335d768ed43d1067121448b24a3e1c23ad45f0b95673edf525fa4a3
+SHA512: 273d5954048cedea52938f391aaab8db6518fd71ecf269582eb9c92519f8f274333732dd6b72f99318f4574989fa162018cfd55d30afd9dd6e8a672ca82442fd
+Description: Một tinh chỉnh giúp bạn đưa Menu Platinmods MỚI (menu tự làm) và kiểm tra hiệu năng một cách dễ dàng!
+Name: In-Game Offset Injector
+Author: TheArmKing
+
+Package: com.hhnios.iosgodsiapcracker
+Architecture: iphoneos-arm
+Version: 1.0-2
+Section: Tweaks
+Maintainer: Laxus
+Installed-Size: 296
+Depends: mobilesubstrate
+Filename: ./DEB/com.hhnios.iosgodsiapcracker_1.0-2_iphoneos-arm.deb
+Size: 17706
+MD5sum: e395b21fac552426696eab1d9dff8e4c
+SHA1: b219398c6e7092997855dad0811b48f90feb6029
+SHA256: 10e46c2200cfb88cd3e21b1960852b481cf5e67df6b6935e3daa295fa5def89e
+SHA512: 0dc4a6832ea2c201e959f1f9c5d3a5d5dd1806291d939eb425a85cba82d4c7a6307cca295e067c4979afc0b1d49c8ed04cf988e6afd569efb37234ccd36c4d89
+Description: Mua iAP miễn phí cho một số ứng dụng và trò chơi, nó không phải lúc nào cũng hoạt động nên đừng mong đợi nhiều.  Bật tinh chỉnh bên trong Cài đặt iOS.  Tinh chỉnh này được thực hiện bởi @Laxus cho iOSGods.com, hỗ trợ các thiết bị A12/A13
+Name: iOSGods iAP Cracker
+Author: Laxus
+
+Package: com.hhnios.lienquan
+Architecture: iphoneos-arm
+Version: 0.2
+Section: Tweaks
+Maintainer: HHNiOS
+Installed-Size: 1164
+Depends: mobilesubstrate
+Filename: ./DEB/com.hhnios.lienquan_0.2_iphoneos-arm.deb
+Size: 773528
+MD5sum: c5e326e6dd050274e5f29674a201be7d
+SHA1: 405219faf699fa5d3d8e7c93e9a3ad95bc16a12e
+SHA256: 32506eeb38194a2ddfd8ed85f8d214e512bd750db75fcb548d24a1dca6ae1ea4
+SHA512: 0f7b09bc396d6fb562fa82aa800e72d67c0f0af06b245ee2c176306b2a45b759fb0f1dbc76fc4e98f70b9f7aaa7d78087256e2d49ea08f7836ac5b0e625ac276
+Homepage: https://hhnios.github.io
+Description: Liên Quân Mod Menu by HHNiOS!
+Name: Liên Quân Mod Menu
+Author: HHNiOS
+
+Package: com.hhnios.lienquan
+Architecture: iphoneos-arm
+Version: 0.3.5
+Section: Tweaks
+Maintainer: HHNiOS
+Installed-Size: 1164
+Depends: mobilesubstrate
+Filename: ./DEB/com.hhnios.lienquan_0.3.5_iphoneos-arm.deb
+Size: 773562
+MD5sum: 08cc1810c1a287950b98570709189970
+SHA1: 06c09d0b921e575b9b442787b972c8f9e548bb08
+SHA256: 8acbe0360e95a1d2df5b7a054f51b02c6fc5d0fd6184a6aad64be449d0b85233
+SHA512: 3606ebb8690f8fb85a70e3c8918b783e6c51cd0193940b33dc3b81943b6e905c817ffd573cd2bfe633be48e92d5fbd5a2e225d5d9afb65c85a1189160b284b86
+Homepage: https://hhnios.github.io
+Description: Liên Quân Mod Menu by HHNiOS!
+Name: Liên Quân Mod Menu
+Author: HHNiOS
+
+Package: com.hhnios.lienquan
+Architecture: iphoneos-arm
+Version: 0.3
+Section: Tweaks
+Maintainer: HHNiOS
+Installed-Size: 1164
+Depends: mobilesubstrate
+Filename: ./DEB/com.hhnios.lienquan_0.3_iphoneos-arm.deb
+Size: 773282
+MD5sum: 220f787eca67922e931c72b1084bbb9b
+SHA1: fa99f6f3428c70ea79ff2fb87983c3a9d369db8e
+SHA256: edadec355ed95303c58445a4dca06d0feb82bf30d6d809101325b432c0b5f43f
+SHA512: 73655c4e7a7836e474a415d30b8a9f78b936259b90cd9d27af9ec19470396793b693f1f83d58b7da71f470e2f88fd5bac73ee6737695e9efea98f6a257a09870
+Homepage: https://hhnios.github.io
+Description: Liên Quân Mod Menu by HHNiOS!
+Name: Liên Quân Mod Menu
+Author: HHNiOS
+
+Package: com.hhnios.lienquan
+Architecture: iphoneos-arm
+Version: 0.4.0
+Section: Tweaks
+Maintainer: HHNiOS
+Installed-Size: 1164
+Depends: mobilesubstrate
+Filename: ./DEB/com.hhnios.lienquan_0.4.0_iphoneos-arm.deb
+Size: 773690
+MD5sum: 164718cc4e6279647b379dbf3c00a845
+SHA1: a316873d27e602e13914fcc0db4d7c4ead010151
+SHA256: 2cf8238af2f6bf1bcf7d3ab87b854d0beb053ae5e1ee3545ef6b000db92c03d1
+SHA512: 254291a5eae7fb91d7063da798140d61b474b490c5010bb3ecb7b49a97ea4a1d6e3e5d3529e9cc17b7a3cef84477b10ad10a8107c792efcece70dde325033e5c
+Homepage: https://hhnios.github.io
+Description: Liên Quân Mod Menu by HHNiOS!
+Name: Liên Quân Mod Menu
+Author: HHNiOS
+
+Package: com.hhnios.lienquan
+Architecture: iphoneos-arm
+Version: 0.4.5
+Section: Tweaks
+Maintainer: HHNiOS
+Installed-Size: 1164
+Depends: mobilesubstrate
+Filename: ./DEB/com.hhnios.lienquan_0.4.5_iphoneos-arm.deb
+Size: 788700
+MD5sum: 2eda9ae159f21805303867e5a1ee8c1b
+SHA1: 1b4805d11e8b3129a0470650d72e27ffd5d30d51
+SHA256: 773ddbef390f0e8d61509844c205390f9efbce223ace4af053b8b5f3828122ac
+SHA512: 9666f983f74372b60c11cfc3079ce519c17b53accca579f788ba2810246ff9ddc9ff99765c5cf9343c69efa792b31f959368a2313e6248f56b3666d996875a8a
+Homepage: https://hhnios.github.io
+Description: Liên Quân Mod Menu by HHNiOS!
+Name: Liên Quân Mod Menu
+Author: HHNiOS
+
+Package: com.hhnios.lienquan
+Architecture: iphoneos-arm
+Version: 0.5.0
+Section: Tweaks
+Maintainer: HHNiOS
+Installed-Size: 1164
+Depends: mobilesubstrate
+Filename: ./DEB/com.hhnios.lienquan_0.5.0_iphoneos-arm.deb
+Size: 773908
+MD5sum: 71bef6497c60bb850a4281bb8ba21dd6
+SHA1: ef65fcd24bb4fdda181dd7650e05beb6ce6d2d22
+SHA256: a171d8f28c2a33329a198e8a574480c1d0309b93b7cbe199a5578a0030439dfe
+SHA512: dbdcb7edaad6b8d6c1407212bdf041cd01c12aa06e41a64e844fbde80f4b6bf5ed594a8a1e8aa8f43a84b4244aec6c0599682ae0fd48c767704d2568f0b89544
+Homepage: https://hhnios.github.io
+Description: Liên Quân Mod Menu by HHNiOS!
+Name: Liên Quân Mod Menu
+Author: HHNiOS
+
+Package: com.hhnios.madness
+Architecture: iphoneos-arm
+Version: 0.0.6
+Section: Tweaks
+Maintainer: ESP
+Installed-Size: 644
+Depends: mobilesubstrate
+Filename: ./DEB/com.hhnios.madness_0.0.6_iphoneos-arm.deb
+Size: 528456
+MD5sum: ed422c86659dfb0b29a32c7d3c318dc6
+SHA1: 99cf5fb9d4d3d37cf9199b83d2b17102bc7c0822
+SHA256: af7761d3f63721bae3831d893fb02d9d7aa2a3622f3af2c4ac1ef4d17c7d8ecf
+SHA512: dff3692fa2165d045b7dd9df3de93758360ebcb1f54067c4ba9ebde2d8f3d098a68037d3ab7fd4a99d14ff28b2c924dfcf7835ce86bb12176d83025482a3d3fb
+Description:  Menu By Majed_aj
+Name: MADNESS PUBG TEST GL+VNG+KR
+Author: ESP
+
+Package: com.hhnios.memsearch
+Architecture: iphoneos-arm
+Version: 1.5
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 10613
+Depends: firmware (>= 8.0)
+Filename: ./DEB/com.hhnios.memsearch_1.5_iphoneos-arm.deb
+Size: 4000222
+MD5sum: 49aa12f90d68955fa4644363722fefd7
+SHA1: eed01ca5e63d6cf73bf10bd2376cd7e9769f1ddb
+SHA256: 29b84a6c810c21491461ebe9b877874df5e7cb5eb9a7eeb9cfee27a562d861b3
+SHA512: e030eb0379ff048736d01f8bf77941b220d300d688405b22431cba6e2a7c95a0ce852183167a4b4bbeaf3855b246e50c45027ca9dbb6a113a285740424db3c31
+Description: Dùng gian lận tool cho iOS. Hỗ trợ iPhone và iPad  iOS 8.x
+Author: Aidoo.TK <aidoo.tk@gmail.com>
+Name: GameGemVN
+
+Package: com.hhnios.nakvethan
+Architecture: iphoneos-arm
+Version: 0.1
+Section: Mod skin
+Maintainer: HHNiOS
+Filename: ./DEB/com.hhnios.nakvethan_0.1_iphoneos-arm.deb
+Size: 710900
+MD5sum: 2f585b4f762eaac5d80e46924f3e4cae
+SHA1: 1fc130315ff073b27fea9e25d2a4061d990bdec3
+SHA256: cf2ceac1967dda339ed1aae8d1f52291ca6148e3d6aaacfe2fa7f74b47778f76
+SHA512: b9edf34ab216b2e61e656273bfece38e4ffcecab03ae910aa355afdc90a774fe7d6da2fdb212911c34d2a86fe33d76720b64aa57689fda6bb23a6b548d00ad17
+Description: MOD SKIN LIÊN QUÂN
+Name: Mod Skin Nak TNVT
+Author: HHN iOS
+
+Package: com.hhnios.razthai
+Architecture: iphoneos-arm
+Version: 0.1
+Section: Mod skin
+Maintainer: HHNiOS
+Filename: ./DEB/com.hhnios.razthai_0.1_iphoneos-arm.deb
+Size: 675816
+MD5sum: 80dd9ccf73930dea1d98cc81819786ed
+SHA1: 74ca9fe44d48303ccee6c7bd46fb23d678195b52
+SHA256: f4ff639e1ff46ff9cbc9cf1ba1c7408cc9518642664871a9f253a74bb0e6ce0d
+SHA512: d9941a3c6c83a686a7830e74e11fbe44b3ff5d3c9f289d5a52def72030c273e751f51bcd1fe2e31ffe9f27ea34d6f32f923cb9e6fbe323c374f812a835a49fc9
+Description: MOD SKIN LIÊN QUÂN
+Name: Mod Skin Raz Thái
+Author: HHN iOS
+
+Package: com.hhnios.sileo
+Architecture: iphoneos-arm
+Version: 2.0.2-tale1
+Priority: required
+Section: Packaging
+Maintainer: HHNiOS <support@renai.me>
+Installed-Size: 12476
+Pre-Depends: debianutils, dpkg (>= 1.18)
+Depends: apt (>= 1.8.0), coreutils (>=8.31-1), dpkg (>= 1.19.2-4), zsh | bash, cy+cpu.arm64, firmware(>=12.2) | org.swift.libswift (>=5.0)
+Conflicts: cydia-gui (<<99.0)
+Filename: ./DEB/com.hhnios.sileo_2.0.2-tale1_iphoneos-arm.deb
+Size: 4575810
+MD5sum: 8864fb4f85189cec85fece2fa8890b07
+SHA1: 22cf70a1dab49f8b04ae2cd245521689e25423f7
+SHA256: 9bd00ec5659145ea044ae3140c19ef8497f5c33c17fef3764204029780e7b7f1
+SHA512: 78ac549dd41f2b84fdc65c99e9f68b0e0eb6679d0a2f3fddf33b57cf6d7a1e415aa41c7ae2187434f6bdbe6ce50a500b2c2f00c7b83dc9b795f7507e0bec8f57
+Description: Trình cài đặt sileo cho Cydia đã hỗ trợ tiếng việt bởi thuthuatjb.vn. (Công dụng giống như Cydia)
+Tag: cydia::essential
+SileoDepiction: Trình cài đặt sileo cho Cydia đã hỗ trợ tiếng việt bởi thuthuatjb.vn. (Công dụng giống như Cydia)
+Name: Sileo
+Author: Sileo Team <getsileoapp@gmail.com>
+
+Package: com.hhnios.snowboard
+Architecture: iphoneos-arm
+Version: 1.4.20~Beta4
+Section: Tweaks
+Maintainer: @ongcenh
+Installed-Size: 5008
+Provides: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Depends: mobilesubstrate, preferenceloader
+Conflicts: anemoneteam.anemone, com.anemonetheming.anemone, winterboard, com.TruongTamPhong.SnowBoardVietNam
+Replaces: anemoneteam.anemone, com.anemonetheming.anemone, winterboard
+Filename: ./DEB/com.hhnios.snowboard_1.4.20~Beta4_iphoneos-arm.deb
+Size: 2898926
+MD5sum: 7e5a56350f02009ea5af9d461934fd3b
+SHA1: 951e3772ea7b3d9e4a62248f496ae02d3f630cda
+SHA256: 8240efa731b61b2368690d63d6d1a729fba2ad8eea42662d3c78de6171ffa568
+SHA512: e8b228aea9ab257a0c081dc3e5fc4935027852a060396f2f61b16b8148d7aeca6c5fe85ba2b43e9618b37c57b5a2a4db5a620c9f33fba3eba930cc433693b341
+Description: Trình quản lý chủ đề !
+Name: SnowBoard
+Author: Spark & Dennis D. Bednarz
+
+Package: com.hhnios.tai
+Architecture: iphoneos-arm
+Version: 5.1.8
+Section: Utilities
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 475
+Depends: clang-10, clang, curl, git, coreutils, unzip, coreutils-bin, grep, ldid, rsync, xz, dpkg, lz4, make, perl, odcctools, darwintools, llvm, llvm-10, libllvm10, com.bingner.plutil, com.randy420.tools (>= 2.1), mterminal, com.kabiroberai.swift-toolchain, openssl, com.opa334.ccsupport
+Conflicts: net.howett.theos, com.randy420.encrypt
+Filename: ./DEB/com.hhnios.tai_5.1.8_iphoneos-arm.deb
+Size: 91584
+MD5sum: 831ba5d8020c70af4d3402f0e6167d31
+SHA1: e993d4039d86e6695136a272e41be5555f97eb02
+SHA256: f5deff284e374cb67a6d0f1cc720a58aeb6a90a331b79bdbec18b4800ceb6212
+SHA512: 2e99837937cb73be6b39f01575675f66f0439f3b279d1ab57f059c9476c30e813894c430fa57eac7ab5026579c036f047fddba27cc709ffedf00dde3a3b22e4d
+Description: Install theos and setup everything you need with 1 simple command
+Tag: purpose::console
+Author: Randy420 <randy.skinner28@outlook.com>
+Name: Theos Auto Installer
+dev: randy420
+
+Package: com.hhnios.trollstorehelper
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Applications
+Maintainer: @hhnios
+Installed-Size: 616
+Filename: ./DEB/com.hhnios.trollstorehelper_1.2_iphoneos-arm.deb
+Size: 264222
+MD5sum: 47b63a63008f9e2edc4ff155cc96c860
+SHA1: 82fdc7b54ae0558572b2ac10adc342fdb6dff0b9
+SHA256: 6d502a6b77a37e2367e1cbd3b5dc598355036b1aa5117227b06225a88c39acd1
+SHA512: 7df5a1076997659f06a27cf17bbe70fe291aab2c1dff0282b96d23bbf50cf9a387ebbf9804d1076c1726c66c0054eb4e2b1d44ca1c3b692f7551af7edc080a3e
+Description: Ứng dụng trợ giúp để cài đặt và quản lý TrollStore!
+Name: TrollStore Helper
+Author: opa334
+
+Package: com.hhnios.unityfpsindicator
+Architecture: iphoneos-arm
+Version: 0.0.3r
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 560
+Depends: mobilesubstrate, preferenceloader, applist, org.thebigboss.libcolorpicker
+Filename: ./DEB/com.hhnios.unityfpsindicator_0.0.3r_iphoneos-arm.deb
+Size: 109814
+MD5sum: a8178e8cdc06c33fe2c3470637b3a654
+SHA1: d7c4abdd950d79e482782038d3b868b72384edc2
+SHA256: fed72557034121db7788d4efa49f958b6e9fd8d04f42d428ccc8bf5da5fab895
+SHA512: afbc884642d93076c0f9502cda038a74a456c1861fee276de1ac39543d234218b5e991a54ba5e62565071e99ea0276455bc1b22a320e116cbf7785f80767c097
+Description: Đo fps trực tiếp khi chơi game.
+Tag: purpose::extension
+Name: FPSIndicator
+Author: Brend0n <brendonjkding@126.com>
+dev: brend0n
+
+Package: com.hhnios.unlock60fps
+Architecture: iphoneos-arm
+Version: 0.1.0
+Section: Tweaks
+Maintainer: HHN iOS
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./DEB/com.hhnios.unlock60fps_0.1.0_iphoneos-arm.deb
+Size: 4912
+MD5sum: 7e470c3aea759375bf370c1732c9a342
+SHA1: ac0a8a774eadb7c6c86b99b3404548f25a697838
+SHA256: 6a577acef9b2b5966c9dd07bebc77996ef226de80bb59e1a2fa4a38644079f54
+SHA512: 9ef612a8f54d511c75e7f04e28878cb943e3f857922439f3ec213e064d072f748c3bf58b7550ad2a3a412ae5d68fd27e82d81e8fc74f7b8ef81e9d96d3d8c097
+Description: Unlock 60fps Game Liên Quân Mobile
+Name: Unlock 60 FPS Liên Quân
+Author: HHN iOS
+
+Package: com.hhnios.xenhtml
+Architecture: iphoneos-arm
+Version: 2.0.1
+Section: Tweaks
+Maintainer: HHN iOS
+Depends: mobilesubstrate
+Filename: ./DEB/com.hhnios.xenhtml_2.0.1_iphoneos-arm.deb
+Size: 8254188
+MD5sum: 86e8ffecc5ed85a666d405adb0d2b5c5
+SHA1: 8009cac4746affad5b7c09848cd5ff05db54568c
+SHA256: 142d4fc251f827abcb47c5e88f28356a0d60c833defd8a0859727a511371cbcb
+SHA512: 8cfeb2084723a4db6dafdc1c7ccab6742c0d2ac7fc44e56248aa6f2ea44bc4d1615b92377a215cb0a699671f5f577a49084c1412c58461f2790179b6dda869d6
+Description: Thêm tiện ích lên màn hình chính và màn hình khoá
+ - Đã dịch sang tiếng Việt sát nghĩa nhất có thể
+ - Ủng hộ tôi để phát triển mạnh hơn 👌
+Name: Xen HTML
+Author: Matt Clarke
+
+Package: com.hhnios.zebra
+Architecture: iphoneos-arm
+Version: 1.1.28
+Section: Packaging
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 14484
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./DEB/com.hhnios.zebra_1.1.28_iphoneos-arm.deb
+Size: 9197076
+MD5sum: 9f21d044296c84d3e1b546bff53da00e
+SHA1: 03d3636d850d1c5e7be1270e730d772b605e2949
+SHA256: a03a44be931bceb9b9386f7f29fdd4e57a7de9e6db7bc67f4e3d998cae25543b
+SHA512: 934a0f82e6a45f1b69ec4657ec79b372905f854ebcd96cbc8587d593b3e6f64ab5fd22cc53b7ad9468d7391e6d52b664e0b5e4110b7b8032d4f7b48777623b52
+Description: A Useful Package Manager
+Tag: compatible::9.0-14.8
+Name: Zebra
+Author: Zebra Team <team@getzbra.com>
+
+Package: com.hhnios.zebra
+Architecture: iphoneos-arm
+Version: 1.1.29
+Section: Packaging
+Maintainer: Zebra Team <team@getzbra.com>
+Installed-Size: 12580
+Depends: dpkg, uikittools, firmware (>= 9.0)
+Filename: ./DEB/com.hhnios.zebra_1.1.29_iphoneos-arm.deb
+Size: 8276518
+MD5sum: 301ddcc4154e2fa24be48e6c7b268636
+SHA1: 1f0a8581c44dc11339a4e51b545aacff0263304f
+SHA256: ec0987511c3fb6462659fa900f995bc56f8f60a82a277d807b0865c9e1ffed43
+SHA512: 67fe7ea4ee398279eb11107c65d6195961a6d6f430385a51735736983742be39a58934eaa9a4d254bc10af7c7819dffc381cf96a481e5ccdcf9b65ab9d5811a1
+Description: 1 ứng dụng cho phép bạn tải tinh chỉnh tương tự như Cydia hoặc Sileo!!
+Tag: compatible::9.0-15.7
+Name: Zebra
+Author: Zebra Team <team@getzbra.com>
+
