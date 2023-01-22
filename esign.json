@@ -1,0 +1,44 @@
+{
+    "name": "HHN - Esign",
+    "identifier": "https://hhnios.github.io",
+    "sourceURL": "https://hhnios.github.io/esign.json",
+    "apps": [
+        {
+            "isLanZouCloud": 0,
+            "name": "Hack Liên Quân v1",
+            "version": "1.49",
+            "iconURL": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqm.png",
+            "downloadURL": "https://archive.org/download/codevndotnet-signed/codevndotnet-signed.ipa",
+            "versionDescription": ""
+        },
+
+        
+
+        {
+            "isLanZouCloud": 0,
+            "name": "Hack Liên Quân v2",
+            "version": "1.49",
+            "iconURL": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqm.png",
+            "downloadURL": "https://archive.org/download/codevndotnet-signed-1/codevndotnet-signed%20%281%29.ipa",
+            "versionDescription": ""
+        },
+
+        {
+            "isLanZouCloud": 0,
+            "name": "Mod Liên Quân",
+            "version": "1.49",
+            "iconURL": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqmm.png",
+            "downloadURL": "https://archive.org/download/codevndotnet-signed-2/codevndotnet-signed%20%282%29.ipa",
+            "versionDescription": ""
+        },
+        
+        {
+            "isLanZouCloud": 0,
+            "name": "Santander",
+            "version": "1.1",
+            "iconURL": "https://hhnipa.github.io/img/santander.png",
+            "downloadURL": "https://raw.githubusercontent.com/HHNiPA/HHNiPA/main/Santander.ipa",
+            "versionDescription": ""
+        }
+    ]
+}

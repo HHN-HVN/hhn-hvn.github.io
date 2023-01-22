@@ -1,0 +1,53 @@
+{
+    "version": "1.0",
+    "sourceName": "HHN - Gbox",
+    "sourceAuthor": "hhnios",
+    "sourceLinkTitle": "Trang chủ",
+    "sourceLinkUrl": "https://hhnios.github.io",
+    "sourceImage": "https://hhnios.github.io/img/hhn.png",
+    "sourceDescription": "",
+    "appCategories": [
+        "Ứng dụng"
+    ],
+    "appRepositories": [
+        {
+            "appType": "ENT_SIGN",
+            "appCateIndex": 0,
+            "appName": "Hack Liên Quân v1",
+            "appVersion": "1.49",
+            "appImage": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqm.png",
+            "appPackage": "https://archive.org/download/codevndotnet-signed/codevndotnet-signed.ipa",
+            "appDescription": "Store Sign For ios10 Trở nên | All Devices"
+        },
+
+        {
+            "appType": "ENT_SIGN",
+            "appCateIndex": 0,
+            "appName": "Hack Liên Quân v2",
+            "appVersion": "1.49",
+            "appImage": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqm.png",
+            "appPackage": "https://archive.org/download/codevndotnet-signed-1/codevndotnet-signed%20%281%29.ipa",
+            "appDescription": "Store Sign For ios10 Trở nên | All Devices"
+        },
+
+        {
+            "appType": "ENT_SIGN",
+            "appCateIndex": 0,
+            "appName": "Mod Liên Quân",
+            "appVersion": "1.49",
+            "appImage": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqmm.png",
+            "appPackage": "https://archive.org/download/codevndotnet-signed-2/codevndotnet-signed%20%282%29.ipa",
+            "appDescription": "Store Sign For ios10 Trở nên | All Devices"
+        },
+
+        {
+            "appType": "ENT_SIGN",
+            "appCateIndex": 0,
+            "appName": "Santander",
+            "appVersion": "1.1",
+            "appImage": "https://hhnipa.github.io/img/santander.png",
+            "appPackage": "https://raw.githubusercontent.com/HHNiPA/HHNiPA/main/Santander.ipa",
+            "appDescription": "Lẩu 5 sao ios10 Trở nên | All Devices"
+        }
+    ]
+}
