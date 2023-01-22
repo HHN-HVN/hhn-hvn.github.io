@@ -1,7 +1,8 @@
 {
-    "name": "HHN - Esign",
+    "name": "HHN - iPA",
     "identifier": "https://hhnios.github.io",
     "sourceURL": "https://hhnios.github.io/esign.json",
+    "sourceImage": "https://hhnios.github.io/img/hhn.png",
     "apps": [
         {
             "isLanZouCloud": 0,
