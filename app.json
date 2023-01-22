@@ -5,7 +5,7 @@
     "sourceURL": "https://hhnios.github.io/esign.json",
     "apps": [
         {
-            "isLanZouCloud": 0,
+            "isLanZouCloud": 150 mb,
             "name": "Hack Liên Quân v1",
             "version": "1.49",
             "iconURL": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqm.png",
@@ -16,7 +16,7 @@
         
 
         {
-            "isLanZouCloud": 0,
+            "isLanZouCloud": 150 mb,
             "name": "Hack Liên Quân v2",
             "version": "1.49",
             "iconURL": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqm.png",
@@ -25,7 +25,7 @@
         },
 
         {
-            "isLanZouCloud": 0,
+            "isLanZouCloud": 150 mb,
             "name": "Mod Liên Quân",
             "version": "1.49",
             "iconURL": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqmm.png",
@@ -34,7 +34,7 @@
         },
         
         {
-            "isLanZouCloud": 0,
+            "isLanZouCloud": 2 mb,
             "name": "Santander",
             "version": "1.1",
             "iconURL": "https://hhnipa.github.io/img/santander.png",
