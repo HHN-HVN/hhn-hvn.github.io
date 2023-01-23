@@ -26,6 +26,15 @@
 
         {
             "isLanZouCloud": 0,
+            "name": "Hack Aim Liên Quân",
+            "version": "1.49",
+            "iconURL": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqmm.png",
+            "downloadURL": "https://archive.org/download/hhni-oso-aim-1.49.1925084/HHNiOS%E2%80%A2AIM_1.49.1925084.ipa",
+            "versionDescription": ""
+        },
+        
+        {
+            "isLanZouCloud": 0,
             "name": "Mod Liên Quân",
             "version": "1.49",
             "iconURL": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqmm.png",
