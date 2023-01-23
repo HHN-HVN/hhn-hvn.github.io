@@ -1,10 +1,10 @@
-{
-    "name": "HHN - iPA",
-    "sourceImage": "https://hhnios.github.io/img/hhn.png",
-    "identifier": "https://hhnios.github.io",
-    "sourceURL": "https://hhnios.github.io/esign.json",
-    "apps": [
-        {
+    {
+        "name": "HHN - iPA",
+        "sourceImage": "https://hhnios.github.io/img/hhn.png",
+        "identifier": "https://hhnios.github.io",
+        "sourceURL": "https://hhnios.github.io/app.json",
+        "apps": [
+            {
             "isLanZouCloud": 0,
             "name": "Hack Liên Quân v1",
             "version": "1.49",
@@ -12,6 +12,8 @@
             "downloadURL": "https://archive.org/download/codevndotnet-signed/codevndotnet-signed.ipa",
             "versionDescription": "Aim: 0x5FB98CC; Byte: 0xE3008052C0035FD6"
         },
+
+        
 
         {
             "isLanZouCloud": 0,
@@ -30,14 +32,23 @@
             "downloadURL": "https://archive.org/download/codevndotnet-signed-2/codevndotnet-signed%20%282%29.ipa",
             "versionDescription": ""
         },
+        
+        {
+            "isLanZouCloud": 0,
+            "name": "Free Fire Hack Menu",
+            "version": "1.97.1",
+            "iconURL": "https://hhnipa.github.io/img/ff.png",
+            "downloadURL": "https://archive.org/download/ff-vip/FF%20VIP%F0%9F%94%A5.ipa",
+            "versionDescription": "Menu 3 Chạm, Hack By DLGaming"
+        },
 
         {
-            "isLanZouCloud": ,
+            "isLanZouCloud": 0,
             "name": "Santander",
             "version": "1.1",
             "iconURL": "https://hhnipa.github.io/img/santander.png",
             "downloadURL": "https://raw.githubusercontent.com/HHNiPA/HHNiPA/main/Santander.ipa",
-            "versionDescription": "Sử dụng như Filza non Jb"
+            "versionDescription": ""
         }
     ]
 }
