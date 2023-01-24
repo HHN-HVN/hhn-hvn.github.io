@@ -58,6 +58,69 @@
             "iconURL": "https://hhnipa.github.io/img/santander.png",
             "downloadURL": "https://raw.githubusercontent.com/HHNiPA/HHNiPA/main/Santander.ipa",
             "versionDescription": ""
+        },
+
+        {
+            "isLanZouCloud": 0,
+            "name": "Facebook++",
+            "version": "356.0",
+            "iconURL": "https://hhnipa.github.io/img/fb.png",
+            "downloadURL": "https://archive.org/download/facebook-hhn-356.0/Facebook%20HHN_356.0.ipa",
+            "versionDescription": ""
+        },
+        
+        {
+            "isLanZouCloud": 0,
+            "name": "Facebook 2",
+            "version": "370.0",
+            "iconURL": "https://hhnipa.github.io/img/fb.png",
+            "downloadURL": "https://archive.org/download/facebook-2-370.0-hhn/Facebook2_370.0_HHN.ipa",
+            "versionDescription": ""
+        },
+            
+        {
+            "isLanZouCloud": 0,
+            "name": "Facebook Web",
+            "version": "370.0",
+            "iconURL": "https://hhnipa.github.io/img/fbw.png",
+            "downloadURL": "https://archive.org/download/facebook-web-1.0-1670233028/FacebookWeb_1.0_1670233028.ipa",
+            "versionDescription": ""
+        },
+            
+        {
+            "isLanZouCloud": 0,
+            "name": "Messenger 2",
+            "version": "Quên rồi=)))",
+            "iconURL": "https://hhnipa.github.io/img/msg2.png",
+            "downloadURL": "https://archive.org/download/messger2_HHN/messger2_HHN.ipa",
+            "versionDescription": ""
+        },
+      
+        {
+            "isLanZouCloud": 0,
+            "name": "Messenger LITE",
+            "version": "381.0",
+            "iconURL": "https://hhnipa.github.io/img/msgl.png",
+            "downloadURL": "https://archive.org/download/messegerLITE_HHN/messegerLITE_HHN.ipa",
+            "versionDescription": "Messenger nhẹ"
+        },    
+            
+        {
+            "isLanZouCloud": 0,
+            "name": "MonokaiToolkit 2",
+            "version": "2.1",
+            "iconURL": "https://hhnipa.github.io/img/mtk.png",
+            "downloadURL": "https://archive.org/download/mtk-2-1.1-1670961943/MTK2_1.1_1670961943.ipa",
+            "versionDescription": "Nhân bản"
+        },    
+            
+        {
+            "isLanZouCloud": 0,
+            "name": "Youtube Rebon",
+            "version": "17.14.2",
+            "iconURL": "https://hhnipa.github.io/img/yt.png",
+            "downloadURL": "https://archive.org/download/reborn-you-tube-17.41.2/Reborn%2BYouTube_17.41.2.ipa",
+            "versionDescription": "Youtube Pro"
         }
     ]
 }
