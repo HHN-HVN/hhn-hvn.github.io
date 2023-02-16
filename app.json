@@ -6,11 +6,11 @@
         "apps": [
         {
             "isLanZouCloud": 0,
-            "name": "Hack Liên Quân v2",
+            "name": "Hack Liên Quân",
             "version": "1.49",
             "iconURL": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqm.png",
-            "downloadURL": "https://archive.org/download/hhn-i-osv-2-1.49.1925084-1675553521/HHN%20iOSv2_1.49.1925084_1675553521.ipa",
-            "versionDescription": ""
+            "downloadURL": "https://archive.org/download/hhnoi-os-1.49.1925084-1676509973/HHN%E2%80%A2iOS_1.49.1925084_1676509973.ipa",
+            "versionDescription": "Update 16/2"
         },
 
         {
@@ -18,8 +18,8 @@
             "name": "Hack Aim Liên Quân",
             "version": "1.49",
             "iconURL": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqm.png",
-            "downloadURL": "https://archive.org/download/hhn-aim-1.49.1925084-1675575167/HHN%20AIM_1.49.1925084_1675575167.ipa",
-            "versionDescription": "Là bản v2 nhưng được mod thêm aim=))"
+            "downloadURL": "https://archive.org/download/hhnoi-os-1.49.1925084-1676509973/HHN%E2%80%A2iOS_1.49.1925084_1676509973.ipa",
+            "versionDescription": "Là bản v2 nhưng được mod thêm aim=)). Update 16/2"
         },
         
         {
