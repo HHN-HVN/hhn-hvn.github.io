@@ -31,6 +31,15 @@
             "versionDescription": "Menu 3 Chạm, Hack By DLGaming"
         },
 
+{
+            "isLanZouCloud": 0,
+            "name": "BlackList",
+            "version": "0.1",
+            "iconURL": "https://hhnipa.github.io/img/blacklist.png",
+            "downloadURL": "https://raw.githubusercontent.com/HHNiPA/HHNiPA/main/Blacklist%20-%20iThunder_1_1677211877.ipa",
+            "versionDescription": "Xoá chặn danh sách đen của Apple"
+        },
+
         {
             "isLanZouCloud": 0,
             "name": "Santander",
