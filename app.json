@@ -39,6 +39,15 @@
             "downloadURL": "https://raw.githubusercontent.com/HHNiPA/HHNiPA/main/Blacklist%20-%20iThunder_1_1677211877.ipa",
             "versionDescription": "Xoá chặn danh sách đen của Apple"
         },
+            
+        {
+            "isLanZouCloud": 0,
+            "name": "WDBRemoveThreeAppLimit",
+            "version": "1.0",
+            "iconURL": "https://static.appdb.to/images/cydia-1900001094-icon-1675647886.png",
+            "downloadURL": "https://github.com/zhuowei/WDBRemoveThreeAppLimit/releases/download/v1.0/WDBRemoveThreeAppLimit-v1.0.ipa",
+            "versionDescription": ""
+        },
 
         {
             "isLanZouCloud": 0,
