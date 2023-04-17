@@ -5,424 +5,266 @@
     <title>HHN iOS</title>
     <link rel="stylesheet" href="index.js">
     <link rel="stylesheet" href="output.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        .nav {
-    margin-bottom: env(safe-area-inset-bottom);
-    margin-bottom: 0px;
-    padding-bottom: env(safe-area-inset-bottom);
-    left: 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    height: 55px;
-    -webkit-backdrop-filter: saturate(180%) blur(20px);
-    backdrop-filter: saturate(180%) blur(20px);
-    display: flex;
-    overflow-x: auto;
-    text-decoration: none;
-    z-index: 2;
-}
-*, ::before, ::after {
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: ;
-    --tw-pan-y: ;
-    --tw-pinch-zoom: ;
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: ;
-    --tw-slashed-zero: ;
-    --tw-numeric-figure: ;
-    --tw-numeric-spacing: ;
-    --tw-numeric-fraction: ;
-    --tw-ring-inset: ;
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgba(7, 122, 51, 0.5);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-blur: ;
-    --tw-brightness: ;
-    --tw-contrast: ;
-    --tw-grayscale: ;
-    --tw-hue-rotate: ;
-    --tw-invert: ;
-    --tw-saturate: ;
-    --tw-sepia: ;
-    --tw-drop-shadow: ;
-    --tw-backdrop-blur: ;
-    --tw-backdrop-brightness: ;
-    --tw-backdrop-contrast: ;
-    --tw-backdrop-grayscale: ;
-    --tw-backdrop-hue-rotate: ;
-    --tw-backdrop-invert: ;
-    --tw-backdrop-opacity: ;
-    --tw-backdrop-saturate: ;
-    --tw-backdrop-sepia: ;
-}
-user agent stylesheet
-nav {
-    display: block;
-}
-.navtxt1 {
-    color: #007bff;
-    font-size: 13px;
-}
-.nav__link {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-grow: 1;
-    min-width: 50px;
-    overflow: hidden;
-    white-space: nowrap;
-    font-size: 12px;
-    text-decoration: none;
-    -webkit-tap-highlight-color: transparent;
-    transition: background-color 0.1s ease-in-out;
-    font-size: 1rem;
-}
-*, ::before, ::after {
-    --tw-translate-x: 0;
-    --tw-translate-y: 0;
-    --tw-rotate: 0;
-    --tw-skew-x: 0;
-    --tw-skew-y: 0;
-    --tw-scale-x: 1;
-    --tw-scale-y: 1;
-    --tw-pan-x: ;
-    --tw-pan-y: ;
-    --tw-pinch-zoom: ;
-    --tw-scroll-snap-strictness: proximity;
-    --tw-ordinal: ;
-    --tw-slashed-zero: ;
-    --tw-numeric-figure: ;
-    --tw-numeric-spacing: ;
-    --tw-numeric-fraction: ;
-    --tw-ring-inset: ;
-    --tw-ring-offset-width: 0px;
-    --tw-ring-offset-color: #fff;
-    --tw-ring-color: rgba(7, 122, 51, 0.5);
-    --tw-ring-offset-shadow: 0 0 #0000;
-    --tw-ring-shadow: 0 0 #0000;
-    --tw-shadow: 0 0 #0000;
-    --tw-shadow-colored: 0 0 #0000;
-    --tw-blur: ;
-    --tw-brightness: ;
-    --tw-contrast: ;
-    --tw-grayscale: ;
-    --tw-hue-rotate: ;
-    --tw-invert: ;
-    --tw-saturate: ;
-    --tw-sepia: ;
-    --tw-drop-shadow: ;
-    --tw-backdrop-blur: ;
-    --tw-backdrop-brightness: ;
-    --tw-backdrop-contrast: ;
-    --tw-backdrop-grayscale: ;
-    --tw-backdrop-hue-rotate: ;
-    --tw-backdrop-invert: ;
-    --tw-backdrop-opacity: ;
-    --tw-backdrop-saturate: ;
-    --tw-backdrop-sepia: ;
-}
-.tab {
-    height: auto;
-    width: 25px;
-}
-.tab3 {
-    height: auto;
-    width: 20px;
-}
-.tab2 {
-    height: auto;
-    width: 20px;
-    left: 1px;
-    right: 1px;
-}
-.icon {
-    height: auto;
-    max-width: 70px;
-    min-width: 40px;
-}
-.icon1 {
-    height: auto;
-    max-width: 2.9em;
-    min-width: none;
-    display: flex; /* Sử dụng flexbox để hiển thị các icon theo hàng ngang */
-    justify-content: space-between; /* Canh các icon cách đều nhau trên hàng ngang */
-    align-items: center; /* Canh các icon theo chiều dọc giữa container */
-    margin-right: 1px; /* Đặt khoảng cách giữa các icon */
-    margin-inline-start: 15px;
-}
-.info {
-    color: #fff;
-    font-size: 1.3rem;
-}
-b { 
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: transparent;
-    background-image: linear-gradient(to top right, #ffffff, #ffffff00);
-}
-
-    </style>
-    <style>
-        :root {
-            color-scheme: light dark;
-            --body-background-color: white;
-            --body-text-color: #000000;
-        }
-
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --body-background-color: #000000;
-                --body-text-color: #000000;
-            }
-        }
-
-        body {
-            background-color: var(--body-background-color);
-            color: var(--body-text-color);
-        }
-
-        body {
-            background-color: var(--body-background-color);
-            color: var(--body-text-color);
-        }
-
-        .alert {
-            padding: 5px;
-            background-color: #218185;
-            color: #cacccc;
-        }
-
-        }
-
-        .closebtn {
-            margin-left: 10px;
-            color: white;
-            font-weight: bold;
-            float: right;
-            font-size: 17px;
-            line-height: 18px;
-            cursor: pointer;
-            transition: 0.3s;
-        }
-
-        .closebtn:hover {
-            color: black;
-        }
-    </style>
-    <style>
-            .label {
-                color: white;
-                padding: 1px;
-                font-family: Arial;
-            }
-
-            .success1 {
-                background-color: #F0F1F6;
-                color: #007AFF;
-            }
-
-            /* Gray */
-
-            .success {
-                background-color: #2f5061;
-                color: #9fbecf;
-            }
-
-            /* Gray */
-
-            .info {
-                background-color: #2f5061;
-                color: #9fbecf;
-            }
-
-            /* Gray */
-
-            .warning {
-                background-color: #2f5061;
-                color: #9fbecf;
-            }
-
-            /* Gray */
-
-            .sp {
-                background-color: #29ba7e;
-                color: #000000;
-            }
-
-            /* Gray */
-
-            .CertNames {
-                background-color: #c4c4c4;
-                color: #454545;
-            }
-
-            /* Gray */
-
-            .unc {
-                background-color: #7A8C90;
-                color: #000000;
-            }
-
-            /* Gray */
-        </style>
-    <style>
-                body {
-                    margin: 0;
-                    font-family: Arial, Helvetica, sans-serif;
-                }
-
-                .topnav {
-                    overflow: hidden;
-                    background-color: #333;
-                }
-
-                .topnav a {
-                    float: left;
-                    color: #f2f2f2;
-                    text-align: center;
-                    padding: 12px 13px;
-                    text-decoration: none;
-                    font-size: 20px;
-                }
-
-                .topnav a:hover {
-                    background-color: #ddd;
-                    color: black;
-                }
-
-                .topnav a.active {
-                    background-color: #616468;
-                    color: white;
-                }
-            </style>
-            <style>
-                .alert {
-                    padding: 5px;
-                    background-color: #f44336;
-                    color: white;
-                    opacity: 1;
-                    transition: opacity 0.6s;
-                    margin-bottom: 5px;
-                }
-    
-                .alert.success {
-                    background-color: #4CAF50;
-                }
-    
-                .alert.info {
-                    background-color: #b45ed1;
-                }
-    
-                .alert.info2 {
-                    background-color: #5e86d1;
-                }
-    
-                .alert.warning {
-                    background-color: #ff9800;
-                }
-    
-                .closebtn {
-                    margin-left: 15px;
-                    color: white;
-                    font-weight: bold;
-                    float: right;
-                    font-size: 22px;
-                    line-height: 20px;
-                    cursor: pointer;
-                    transition: 0.3s;
-                }
-    
-                .closebtn:hover {
-                    color: black;
-                }
-                </style>
-                <style>
-                    .label {
-                        color: white;
-                        padding: 1px;
-                        font-family: Arial;
-                    }
-
-                    .success1 {
-                        background-color: #F0F1F6;
-                        color: #007AFF;
-                    }
-
-                    /* Gray */
-
-                    .success {
-                        background-color: #2f5061;
-                        color: #9fbecf;
-                    }
-
-                    /* Gray */
-
-                    .info {
-                        background-color: #2f5061;
-                        color: #9fbecf;
-                    }
-
-                    /* Gray */
-
-                    .warning {
-                        background-color: #2f5061;
-                        color: #9fbecf;
-                    }
-
-                    /* Gray */
-
-                    .sp {
-                        background-color: #29ba7e;
-                        color: #000000;
-                    }
-
-                    /* Gray */
-
-                    .CertNames {
-                        background-color: #c4c4c4;
-                        color: #454545;
-                    }
-
-                    /* Gray */
-
-                    .unc {
-                        background-color: #7A8C90;
-                        color: #000000;
-                    }
-    </style>
 </head>
 
-    <body>
-            <script>
-                var close = document.getElementsByClassName("closebtn");
-                var i;
+<body>
+    <div data-page="index-4" class="page page-on-center" style="
+    background: #000000;
+">
+        <div class="page-content pull-to-refresh-content transitioning" data-ptr-distance="55" style="">
+            <div class="pull-to-refresh-layer">
+                <div class="preloader"></div>
+            </div>
+            <div class="content-block" style="margin-top:-24px;">
+            </div>
+            <div class="list-block media-list list-block-search searchbar-found" style="
+    margin-top: -15px;    background: #062c2c;
+">
 
-                for (i = 0; i < close.length; i++) {
-                    close[i].onclick = function() {
-                        var div = this.parentElement;
-                        div.style.opacity = "0";
-                        setTimeout(function() {
-                            div.style.display = "none";
-                        }, 600);
-                    }
-                }
-            </script>
+                <html>
 
-    </body>
-    <body>
+                <head>
+                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                    <style>
+                        :root {
+                            color-scheme: light dark;
+                            --body-background-color: white;
+                            --body-text-color: #000000;
+                        }
+
+                        @media (prefers-color-scheme: dark) {
+                            :root {
+                                --body-background-color: #000000;
+                                --body-text-color: #000000;
+                            }
+                        }
+
+                        body {
+                            background-color: var(--body-background-color);
+                            color: var(--body-text-color);
+                        }
+
+                        body {
+                            background-color: var(--body-background-color);
+                            color: var(--body-text-color);
+                        }
+
+                        .alert {
+                            padding: 5px;
+                            background-color: #218185;
+                            color: #cacccc;
+                        }
+
+                        .closebtn {
+                            margin-left: 10px;
+                            color: white;
+                            font-weight: bold;
+                            float: right;
+                            font-size: 17px;
+                            line-height: 18px;
+                            cursor: pointer;
+                            transition: 0.3s;
+                        }
+
+                        .closebtn:hover {
+                            color: black;
+                        }
+                    </style>
+                </head>
+
+                <body>
+
+
+
+                    <!DOCTYPE html>
+                    <html>
+
+                    <head>
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <style>
+                            .label {
+                                color: white;
+                                padding: 1px;
+                                font-family: Arial;
+                            }
+
+                            .success1 {
+                                background-color: #F0F1F6;
+                                color: #007AFF;
+                            }
+
+                            /* Gray */
+
+                            .success {
+                                background-color: #2f5061;
+                                color: #9fbecf;
+                            }
+
+                            /* Gray */
+
+                            .info {
+                                background-color: #2f5061;
+                                color: #9fbecf;
+                            }
+
+                            /* Gray */
+
+                            .warning {
+                                background-color: #2f5061;
+                                color: #9fbecf;
+                            }
+
+                            /* Gray */
+
+                            .sp {
+                                background-color: #29ba7e;
+                                color: #000000;
+                            }
+
+                            /* Gray */
+
+                            .CertNames {
+                                background-color: #c4c4c4;
+                                color: #454545;
+                            }
+
+                            /* Gray */
+
+                            .unc {
+                                background-color: #7A8C90;
+                                color: #000000;
+                            }
+
+                            /* Gray */
+                        </style>
+                    </head>
+
+                    <body>
+
+
+
+
+
+
+
+                        <!DOCTYPE html>
+                        <html>
+
+                        <head>
+                            <meta name="viewport" content="width=device-width, initial-scale=1">
+                            <style>
+                                body {
+                                    margin: 0;
+                                    font-family: Arial, Helvetica, sans-serif;
+                                }
+
+                                .topnav {
+                                    overflow: hidden;
+                                    background-color: #333;
+                                }
+
+                                .topnav a {
+                                    float: left;
+                                    color: #f2f2f2;
+                                    text-align: center;
+                                    padding: 12px 13px;
+                                    text-decoration: none;
+                                    font-size: 20px;
+                                }
+
+                                .topnav a:hover {
+                                    background-color: #ddd;
+                                    color: black;
+                                }
+
+                                .topnav a.active {
+                                    background-color: #616468;
+                                    color: white;
+                                }
+                            </style>
+                        </head>
+
+                        <body>
+
+
+                            <div style="padding-left:16px">
+                            </div>
+
+                        </body>
+
+                        </html>
+
+                    </body>
+
+                    </html>
+
+                    <!DOCTYPE html>
+                    <html>
+
+                    <head>
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <style>
+                            .alert {
+                                padding: 5px;
+                                background-color: #f44336;
+                                color: white;
+                                opacity: 1;
+                                transition: opacity 0.6s;
+                                margin-bottom: 5px;
+                            }
+
+                            .alert.success {
+                                background-color: #4CAF50;
+                            }
+
+                            .alert.info {
+                                background-color: #b45ed1;
+                            }
+
+                            .alert.info2 {
+                                background-color: #5e86d1;
+                            }
+
+                            .alert.warning {
+                                background-color: #ff9800;
+                            }
+
+                            .closebtn {
+                                margin-left: 15px;
+                                color: white;
+                                font-weight: bold;
+                                float: right;
+                                font-size: 22px;
+                                line-height: 20px;
+                                cursor: pointer;
+                                transition: 0.3s;
+                            }
+
+                            .closebtn:hover {
+                                color: black;
+                            }
+                        </style>
+                    </head>
+
+                    <body>
+                        <script>
+                            var close = document.getElementsByClassName("closebtn");
+                            var i;
+
+                            for (i = 0; i < close.length; i++) {
+                                close[i].onclick = function() {
+                                    var div = this.parentElement;
+                                    div.style.opacity = "0";
+                                    setTimeout(function() {
+                                        div.style.display = "none";
+                                    }, 600);
+                                }
+                            }
+                        </script>
+
+                    </body>
+
+                    </html>
                     <ul style="background: #000000; background: -webkit-linear-gradient(left, #2c6eac, #0022ff); /* từ trái sang phải*/
                     background: -o-linear-gradient(right, #006eff, #003cff); /* kết thúc phía bên phải */
                     background: -moz-linear-gradient(right, #ffffff, #0026ff); /* kết thúc phía bên phải */
@@ -434,7 +276,7 @@ b {
                         <marquee style="background: green; color: white; border: 1px solid #000">• Mua hack Liên Quân, PUBG Jailbreak và không Jailbreak liên hệ Zalo: 0375053471 •</marquee>
 
                         <center>
-                            <font <font size="+3" color="#FFFFFF"> iPA Game</font>
+                            <font <font size="+3" color="#FFFFFF">App Sign iPA</font>
                             <br>
                             <font <font size="+1" color="#FFFFFF">Donate Me😍</font>
                             <br>
@@ -458,63 +300,45 @@ b {
 
                             gtag('config', 'UA-133649936-1');
                         </script>
-                        <!--  Start of application code  -->
-                        <li>
-                            <div class="item-content">
-                                <div class="item-media">
-                                    <img class="app-icon" src="img/lqhhn.png"></div>
-                                <div class="item-inner">
-                                    <div class="item-title-row">
-                                        <div class="item-title" style="color: #fff;">LQ Menu Aim 1.49 Beta</div>
-                                        <div class="item-after">
-                                            <a href="https://hhnios.github.io/beta" target="_blank" class="button button-fill button-round" style="background: #29ba7e; color: #000000; font-weight:bold;">Xem thêm</a>
+
+                       <!--  Start of application code  -->
+                       <li>
+                        <div class="item-content">
+                            <div class="item-media">
+                                <img class="app-icon" src="img/lqhhn.png"></div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title" style="color: #fff;">LQ Menu Aim 1.49 Beta</div>
+                                    <div class="item-after">
+                                        <a href="https://hhnios.github.io/beta" target="_blank" class="button button-fill button-round" style="background: #29ba7e; color: #000000; font-weight:bold;">Xem thêm</a>
 
 
-                                        </div>
                                     </div>
-                                    <div class="item-subtitle" style="color: #a9a9a9;">Hack Menu Beta, hãy đọc kĩ lưu ý.</div>
                                 </div>
+                                <div class="item-subtitle" style="color: #a9a9a9;">Hack Menu Beta, hãy đọc kĩ lưu ý.</div>
                             </div>
-                        </li>
-                        <!--  End of application code  -->
-                        <!--  Start of application code  -->
-                        <li>
-                            <div class="item-content">
-                                <div class="item-media">
-                                    <img class="app-icon" src="img/lqhhn.png"></div>
-                                <div class="item-inner">
-                                    <div class="item-title-row">
-                                        <div class="item-title" style="color: #fff;">LQ 1.49 Hack Chơi Kín</div>
-                                        <div class="item-after">
-                                            <a href="https://drive.google.com/file/d/1sxdnaADB20pLR65VAcfpniWbDku09kXX/view?usp=share_link" target="_blank" class="button button-fill button-round" style="background: #29ba7e; color: #000000; font-weight:bold;">Tải xuống ipa</a>
+                        </div>
+                    </li>
+                    <!--  End of application code  -->
+                    <!--  Start of application code  -->
+                    <li>
+                        <div class="item-content">
+                            <div class="item-media">
+                                <img class="app-icon" src="img/lqhhn.png"></div>
+                            <div class="item-inner">
+                                <div class="item-title-row">
+                                    <div class="item-title" style="color: #fff;">LQ 1.49 Hack Chơi Kín</div>
+                                    <div class="item-after">
+                                        <a href="https://drive.google.com/file/d/1sxdnaADB20pLR65VAcfpniWbDku09kXX/view?usp=share_link" target="_blank" class="button button-fill button-round" style="background: #29ba7e; color: #000000; font-weight:bold;">Tải xuống ipa</a>
 
 
-                                        </div>
                                     </div>
-                                    <div class="item-subtitle" style="color: #a9a9a9;">Update ngày 16/4, fix 2</div>
                                 </div>
+                                <div class="item-subtitle" style="color: #a9a9a9;">Update ngày 16/4, fix 2</div>
                             </div>
-                        </li>
-                        <!--  End of application code  -->
-                        <!--  Start of application code  -->
-                        <li>
-                            <div class="item-content">
-                                <div class="item-media">
-                                    <img class="app-icon" src="img/lqhhn.png"></div>
-                                <div class="item-inner">
-                                    <div class="item-title-row">
-                                        <div class="item-title" style="color: #fff;">LQ Aim 1.49 Hack Chơi Kín</div>
-                                        <div class="item-after">
-                                            <a href="https://drive.google.com/file/d/1eBM90AMi0H1IdZmdzLYcFxntXd_ybymW/view?usp=drivesdk" target="_blank" class="button button-fill button-round" style="background: #29ba7e; color: #000000; font-weight:bold;">Tải xuống ipa</a>
-
-
-                                        </div>
-                                    </div>
-                                    <div class="item-subtitle" style="color: #a9a9a9;">Update ngày 15/4</div>
-                                </div>
-                            </div>
-                        </li>
-                        <!--  End of application code  -->
+                        </div>
+                    </li>
+                    <!--  End of application code  -->
                         <!--  Start of application code  -->
                         <li>
                             <div class="item-content">
@@ -522,14 +346,14 @@ b {
                                     <img class="app-icon" src="img/pubg.png"></div>
                                 <div class="item-inner">
                                     <div class="item-title-row">
-                                        <div class="item-title" style="color: #fff;">PUBG Hack 2.5.0</div>
+                                        <div class="item-title" style="color: #fff;">PUBG Hack 2.4.0</div>
                                         <div class="item-after">
-                                            <a href="https://drive.google.com/file/d/1gRdKcvqikK0q7tkqKlYywHuQsC1X7maK/view?usp=share_link" target="_blank" class="button button-fill button-round" style="background: #29ba7e; color: #000000; font-weight:bold;">Tải xuống ipa</a>
+                                            <a href="https://drive.google.com/file/d/12hRWj4Ko_FwVditkclk5_KePRshBMydR/view?usp=drivesdk" target="_blank" class="button button-fill button-round" style="background: #29ba7e; color: #000000; font-weight:bold;">Tải xuống ipa</a>
 
 
                                         </div>
                                     </div>
-                                    <div class="item-subtitle" style="color: #a9a9a9;">Hack ESP Non JB</div>
+                                    <div class="item-subtitle" style="color: #a9a9a9;">Hack Offset Non JB</div>
                                 </div>
                             </div>
                         </li>
@@ -543,12 +367,12 @@ b {
                                     <div class="item-title-row">
                                         <div class="item-title" style="color: #fff;">Free Fire Hack</div>
                                         <div class="item-after">
-                                            <a href="https://drive.google.com/file/d/1BpSA0ClzKz68HQ-_YwGFcmmKgJN93HM1/view?usp=share_link" target="_blank" class="button button-fill button-round" style="background: #29ba7e; color: #000000; font-weight:bold;">Tải xuống ipa</a>
+                                            <a href="https://drive.google.com/file/d/1SF3dqIkViMhIMWuPqW5n66mDP8QUUkyM/view?usp=drivesdk" target="_blank" class="button button-fill button-round" style="background: #29ba7e; color: #000000; font-weight:bold;">Tải xuống ipa</a>
 
 
                                         </div>
                                     </div>
-                                    <div class="item-subtitle" style="color: #a9a9a9;">Hack Menu By HHNiOS, Fix văng.</div>
+                                    <div class="item-subtitle" style="color: #a9a9a9;">Hack Menu By DLGaming</div>
                                 </div>
                             </div>
                         </li>
@@ -1087,9 +911,9 @@ b {
                                     <img class="app-icon" src="img/pes.png"></div>
                                 <div class="item-inner">
                                     <div class="item-title-row">
-                                        <div class="item-title" style="color: #fff;">eFootball™2 7.4.2</div>
+                                        <div class="item-title" style="color: #fff;">eFootball™2 7.3.1</div>
                                         <div class="item-after">
-                                            <a href="https://drive.google.com/file/d/1pMQRGJgk5W6yPZLN49ckjYzyNb8BFEzg/view?usp=drivesdk" target="_blank" class="button button-fill button-round" style="background: #29ba7e; color: #000000; font-weight:bold;">Tải xuống ipa</a>
+                                            <a href="https://drive.google.com/file/d/15ERH9RWiC-tlOmYC5irSjKfjLdJ_ObdP/view?usp=drivesdk" target="_blank" class="button button-fill button-round" style="background: #29ba7e; color: #000000; font-weight:bold;">Tải xuống ipa</a>
                                         </div>
                                     </div>
                                     <div class="item-subtitle" style="color: #a9a9a9;">Clone by HHN!!</div>
@@ -1104,9 +928,9 @@ b {
                                     <img class="app-icon" src="img/pes.png"></div>
                                 <div class="item-inner">
                                     <div class="item-title-row">
-                                        <div class="item-title" style="color: #fff;">eFootball™3 7.4.2</div>
+                                        <div class="item-title" style="color: #fff;">eFootball™3 7.3.1</div>
                                         <div class="item-after">
-                                            <a href="https://drive.google.com/file/d/1zn3tBlUX_2Aor3hnQqgsik_TkPJFRxad/view?usp=drivesdk" _blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
+                                            <a href="https://drive.google.com/file/d/18wHL3oXpGlM38sQFlc4pIEJvgqID8MB9/view?usp=drivesdk" _blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
                                             </div>
                                     </div>
                                     <div class="item-subtitle " style="color: #a9a9a9; ">Clone by HHN!!</div>
@@ -1137,121 +961,6 @@ b {
                             </div>
                         </li>
                         <!--  End of application code  -->
-                        <br>
-                        <center> <font <font size="+3 " color="#FFFFFF ">App Sign chứng chỉ lỗi.</font>
-                        <br> <font <font size="+1 " color="#FFFFFF ">---HHN iOS---</font>
-                        <p>
-                            <font <font size="+0,5 " color="#FFFFFF ">Nếu bạn gặp khó khăn thì:<a href="https://hhnios.github.io/hhnipa.mobileconfig ">Đây là video hướng dẫn.</a> </font>
-                        </p>
-                        </center>
-                                                <!--  Start of application code -->
-                                                <li>
-                                                    <div class="item-content ">
-                                                        <div class="item-media ">
-                                                            <img class="app-icon " src="img/blacklist.png "></div>
-                                                        <div class="item-inner ">
-                                                            <div class="item-title-row ">
-                                                            <div class="item-title " style="color: #fff; ">Blacklist cài trực tiếp</div>
-                                                                <div class="item-after ">
-                                                                    <a href="https://install.appcenter.ms/orgs/hhnaim/apps/blacklist/distribution_groups/blacklist " target="_blank " class="button button-fill button-round " style="background: #29ba7e;
-                                                color: #000000; font-weight:bold; ">Tải xuống</a>
-                                                                    </div>
-                                                            </div>
-                                                            <div class="item-subtitle " style="color: #a9a9a9; ">Fix thu hồi chứng chỉ iOS 15.0-15.7.2</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <!--  End of application code  -->
-                                                <!--  Start of application code -->
-                                                <li>
-                                                    <div class="item-content ">
-                                                        <div class="item-media ">
-                                                            <img class="app-icon " src="img/blacklist.png "></div>
-                                                        <div class="item-inner ">
-                                                            <div class="item-title-row ">
-                                                            <div class="item-title " style="color: #fff; ">Blacklist</div>
-                                                                <div class="item-after ">
-                                                                    <a href="https://github.com/HHNiPA/HHNiPA/raw/main/Blacklist%20-%20iThunder_1_1677211877.ipa " target="_blank " class="button button-fill button-round " style="background: #29ba7e;
-                                                color: #000000; font-weight:bold; ">Tải xuống</a>
-                                                                    </div>
-                                                            </div>
-                                                            <div class="item-subtitle " style="color: #a9a9a9; ">Fix thu hồi chứng chỉ iOS 15.0-15.7.2</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <!--  End of application code  -->
-                                                <!--  Start of application code -->
-                                                <li>
-                                                    <div class="item-content ">
-                                                        <div class="item-media ">
-                                                            <img class="app-icon " src="img/esign.png "></div>
-                                                        <div class="item-inner ">
-                                                            <div class="item-title-row ">
-                                                            <div class="item-title " style="color: #fff; ">Esign cài trực tiếp 1</div>
-                                                                <div class="item-after ">
-                                                                    <a href="itms-services://?action=download-manifest&url=https://urlvn.net/k7pj4c " target="_blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000;
-                                                font-weight:bold; ">Tải xuống</a>
-                                                                    </div>
-                                                            </div>
-                                                            <div class="item-subtitle " style="color: #a9a9a9; ">Chứng chỉ FPT</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <!--  End of application code  -->
-                                                <!--  Start of application code -->
-                                                <li>
-                                                    <div class="item-content ">
-                                                        <div class="item-media ">
-                                                            <img class="app-icon " src="img/esign.png "></div>
-                                                        <div class="item-inner ">
-                                                            <div class="item-title-row ">
-                                                            <div class="item-title " style="color: #fff; ">Esign cài trực tiếp 2</div>
-                                                                <div class="item-after ">
-                                                                    <a href="itms-services://?action=download-manifest&url=https://urlvn.net/sztk7g " target="_blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000;
-                                                font-weight:bold; ">Tải xuống</a>
-                                                                    </div>
-                                                            </div>
-                                                            <div class="item-subtitle " style="color: #a9a9a9; ">Chứng chỉ Chongqing</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <!--  End of application code  -->
-                                                <!--  Start of application code -->
-                                                <li>
-                                                    <div class="item-content ">
-                                                        <div class="item-media ">
-                                                            <img class="app-icon " src="img/esignp12.png "></div>
-                                                        <div class="item-inner ">
-                                                            <div class="item-title-row ">
-                                                            <div class="item-title " style="color: #fff; ">Cert FPT</div>
-                                                                <div class="item-after ">
-                                                                    <a href="https://github.com/HHNiPA/HHNiPA/raw/main/FPT%20Software%20Company%20Limited.esigncert " target="_blank " class="button button-fill button-round " style="background: #29ba7e;
-                                                color: #000000; font-weight:bold; ">Tải xuống file</a>
-                                                                    </div>
-                                                            </div>
-                                                            <div class="item-subtitle " style="color: #a9a9a9; ">Chứng chỉ dùng cho Esign.</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <!--  End of application code  -->
-                                                <!--  Start of application code -->
-                                                <li>
-                                                    <div class="item-content ">
-                                                        <div class="item-media ">
-                                                            <img class="app-icon " src="img/esignp12.png "></div>
-                                                        <div class="item-inner ">
-                                                            <div class="item-title-row ">
-                                                            <div class="item-title " style="color: #fff; ">Cert Chongqing</div>
-                                                                <div class="item-after ">
-                                                                    <a href="https://github.com/HHNiPA/HHNiPA/raw/main/Chongqing%20Changan%20Automobile%20Company%20Limited.esigncert " target="_blank " class="button button-fill button-round " style="background:
-                                                #29ba7e; color: #000000; font-weight:bold; ">Tải xuống file</a>
-                                                                    </div>
-                                                            </div>
-                                                            <div class="item-subtitle " style="color: #a9a9a9; ">Chứng chỉ dùng cho Esign.</div>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <!--  End of application code  -->
 <br>
 <center> <font <font size="+3 " color="#FFFFFF ">App Sign iPA</font>
 <br> <font <font size="+1 " color="#FFFFFF ">---HHN iOS---</font>
@@ -1297,26 +1006,9 @@ b {
                                     <img class="app-icon " src="img/esign.png "></div>
                                 <div class="item-inner ">
                                     <div class="item-title-row ">
-                                    <div class="item-title " style="color: #fff; ">Esign 4.7.7</div>
+                                    <div class="item-title " style="color: #fff; ">Esign 4.7.3.1</div>
                                         <div class="item-after ">
-                                            <a href="https://github.com/HHNiPA/HHNiPA/raw/main/esign_4.7.7_unsigned.ipa " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
-                                            </div>
-                                    </div>
-                                    <div class="item-subtitle " style="color: #a9a9a9; "></div>
-                                </div>
-                            </div>
-                        </li>
-                        <!--  End of application code  -->
-                        <!--  Start of application code -->
-                        <li>
-                            <div class="item-content ">
-                                <div class="item-media ">
-                                    <img class="app-icon " src="https://avatars.githubusercontent.com/u/105070799?s=200&v=4 "></div>
-                                <div class="item-inner ">
-                                    <div class="item-title-row ">
-                                    <div class="item-title " style="color: #fff; ">SiderStore</div>
-                                        <div class="item-after ">
-                                            <a href="https://sidestore.io/#downloads " target="_blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
+                                            <a href="https://raw.githubusercontent.com/HHNiPA/HHNiPA/main/esign_4.7.3.1_unsign.ipa " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
                                             </div>
                                     </div>
                                     <div class="item-subtitle " style="color: #a9a9a9; "></div>
@@ -1394,43 +1086,9 @@ b {
                         </li>
                         <!--  End of application code  -->
 <br>
-<center> <font <font size="+3 " color="#FFFFFF ">iPA Cho TrollStore, XinaA15</font>
+<center> <font <font size="+3 " color="#FFFFFF ">iPA Cho TrollStore</font>
 <br> <font <font size="+1 " color="#FFFFFF ">---HHN iOS---</font>
 </center>
-                        <!--  Start of application code -->
-                        <li>
-                            <div class="item-content ">
-                                <div class="item-media ">
-                                    <img class="app-icon " src="img/trollspeed.png "></div>
-                                <div class="item-inner ">
-                                    <div class="item-title-row ">
-                                    <div class="item-title " style="color: #fff; ">TrollSpeed</div>
-                                        <div class="item-after ">
-                                            <a href="https://github.com/HHNiPA/HHNiPA/raw/main/TrollSpeed_1.7_1677243017.ipa " target="_blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
-                                            </div>
-                                    </div>
-                                    <div class="item-subtitle " style="color: #a9a9a9; ">Cài qua Troll hỗ trợ iOS14.0-15.5beta4</div>
-                                </div>
-                            </div>
-                        </li>
-                        <!--  End of application code  -->
-                        <!--  Start of application code -->
-                        <li>
-                            <div class="item-content ">
-                                <div class="item-media ">
-                                    <img class="app-icon " src="https://tweak-box.com/wp-content/uploads/2021/06/sileo-logo-app.png "></div>
-                                <div class="item-inner ">
-                                    <div class="item-title-row ">
-                                    <div class="item-title " style="color: #fff; ">Sileo XinaA15</div>
-                                        <div class="item-after ">
-                                            <a href="https://raw.githubusercontent.com/HHNiPA/HHNiPA/main/Sileo.ipa " target="_blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
-                                            </div>
-                                    </div>
-                                    <div class="item-subtitle " style="color: #a9a9a9; ">Cài qua Troll hỗ trợ iOS15 cho Xina15</div>
-                                </div>
-                            </div>
-                        </li>
-                        <!--  End of application code  -->
                         <!--  Start of application code -->
                         <li>
                             <div class="item-content ">
@@ -1628,12 +1286,12 @@ b {
                                     <img class="app-icon " src="img/fugu15.png "></div>
                                 <div class="item-inner ">
                                     <div class="item-title-row ">
-                                    <div class="item-title " style="color: #fff; ">Fugu15 Max 1.0.0 Beta2</div>
+                                    <div class="item-title " style="color: #fff; ">Fugu15 0.0.8</div>
                                         <div class="item-after ">
-                                            <a href="https://github.com/opa334/Fugu15/releases/download/1.0.0-beta.2/Fugu15.tipa " target="_blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
+                                            <a href="https://github.com/iarchiveml/Fugu15/releases/download/v0.0.8/Fugu15.tipa " target="_blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
                                             </div>
                                     </div>
-                                    <div class="item-subtitle " style="color: #a9a9a9; ">Jailbreak iOS 15-15.4.1 cài qua Trollstore</div>
+                                    <div class="item-subtitle " style="color: #a9a9a9; ">Cài qua Troll hỗ trợ iOS15 cho Xina15</div>
                                 </div>
                             </div>
                         </li>
@@ -1847,23 +1505,6 @@ b {
 <center> <font <font size="+3 " color="#FFFFFF ">iPA Mod++ App</font>
 <br> <font <font size="+1 " color="#FFFFFF ">---HHN iOS---</font>
 </center>
-                        <!--  Start of application code -->
-                        <li>
-                            <div class="item-content ">
-                                <div class="item-media ">
-                                    <img class="app-icon " src="img/bili.png "></div>
-                                <div class="item-inner ">
-                                    <div class="item-title-row ">
-                                    <div class="item-title " style="color: #fff; ">Bilibili++ 2.28.0</div>
-                                        <div class="item-after ">
-                                            <a href="https://www.mediafire.com/file/yw5epozvrc762d0/Bilibili++_2.28.0_1679882493.ipa/file " target="_blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
-                                            </div>
-                                    </div>
-                                    <div class="item-subtitle " style="color: #a9a9a9; ">Fix. Ứng dụng xem Anime HD, bản quyền.</div>
-                                </div>
-                            </div>
-                        </li>
-                        <!--  End of application code  -->
                         <!--  Start of application code -->
                         <li>
                             <div class="item-content ">
@@ -2160,10 +1801,9 @@ b {
                                     <img class="app-icon " src="img/yt.png "></div>
                                 <div class="item-inner ">
                                     <div class="item-title-row ">
-                                    <div class="item-title " style="color: #fff; ">uYou Plus 17.36.4</div>
+                                    <div class="item-title " style="color: #fff; ">Youtube Rebon 17.41.2</div>
                                         <div class="item-after ">
-                                            <a href="https://github.com/qnblackcat/uYouPlus/releases/download/v17.36.4-2.1-F2/uYouPlus_17.36.4_2.1_F2.ipa " target="_blank " class="button button-fill button-round " style="background: #29ba7e; color:
-                                                #000000; font-weight:bold; ">Tải xuống ipa</a>
+                                            <a href="https://www.mediafire.com/file/ik24z9l4j3mto08/Reborn+YouTube_17.41.2.ipa/file " target="_blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
                                             </div>
                                     </div>
                                     <div class="item-subtitle " style="color: #a9a9a9; ">Đã Fix Đăng Nhập!!</div>
@@ -2337,23 +1977,6 @@ b {
                                             </div>
                                     </div>
                                     <div class="item-subtitle " style="color: #a9a9a9; ">Unlock Pro!!</div>
-                                </div>
-                            </div>
-                        </li>
-                        <!--  End of application code  -->
-                        <!--  Start of application code -->
-                        <li>
-                            <div class="item-content ">
-                                <div class="item-media ">
-                                    <img class="app-icon " src="img/kine.png "></div>
-                                <div class="item-inner ">
-                                    <div class="item-title-row ">
-                                    <div class="item-title " style="color: #fff; ">KineMaster 6.0.4</div>
-                                        <div class="item-after ">
-                                            <a href="https://www.mediafire.com/file/r8rccf49coo4276/KineMaster+Pro_6.0.4_1679988457.ipa/file " target="_blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
-                                            </div>
-                                    </div>
-                                    <div class="item-subtitle " style="color: #a9a9a9; ">Chọn gói 1 năm rồi bấm đăng ký. Unlock Pro!!</div>
                                 </div>
                             </div>
                         </li>
@@ -2614,23 +2237,6 @@ b {
                             </div>
                         </li>
                         <!--  End of application code  -->
-                        <!--  Start of application code -->
-                        <li>
-                            <div class="item-content ">
-                                <div class="item-media ">
-                                    <img class="app-icon " src="img/cpux.png "></div>
-                                <div class="item-inner ">
-                                    <div class="item-title-row ">
-                                        <div class="item-title " style="color: #fff; ">CPU-x 1.6.4</div>
-                                        <div class="item-after ">
-                                            <a href="https://www.mediafire.com/file/eju97jrqc3egu7p/ARMCPUZ_1.6.4_1677931523.ipa/file" target="_blank " class="button button-fill button-round " style="background: #29ba7e; color: #000000; font-weight:bold; ">Tải xuống ipa</a>
-                                        </div>
-                                    </div>
-                                    <div class="item-subtitle " style="color: #a9a9a9; ">Ứng dụng xem Anime HD, bản quyền.</div>
-                                </div>
-                            </div>
-                        </li>
-                        <!--  End of application code  -->
                         <center>
                             <div style="font-size: 20px;color: #FF33CC;font-weight: bold">
                                 <p>Copyright © by <a href="https://www.facebook.com/hhnios?mibextid=LQQJ4d" class="link">
@@ -2643,25 +2249,5 @@ b {
                         
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/inobounce/0.1.5/inobounce.min.js"></script>
-<br><br><br><br>
-<nav class="nav">
-  <a href="https://hhnios.github.io" class="nav__link">
-      <embed class="tab" src="https://github.com/HHNiOS/hhnios.github.io/blob/main/img/home.png?raw=true">
-       <span class="navtxt1" style="color:#ffffff;">Trang chủ</span>
-     </a>
-     <a href="#" class="nav__link">
-      <embed class="tab2" src="https://github.com/HHNiOS/hhnios.github.io/blob/main/img/ipa.png?raw=true">
-       <span class="navtxt1" style="color:#d9ff00;">Download iPA</span>
-    </a>
-       <a href="https://hhnios.github.io/dv" class="nav__link">
-        <embed class="tab" src="https://github.com/HHNiOS/hhnios.github.io/blob/main/img/dv.png?raw=true">
-         <span class="navtxt1" style="color:#ffffff;">Dịch vụ</span>
-    </a>
-     <a href="https://hhnios.github.io/sign.html" class="nav__link">
-      <embed class="tab3" src="https://github.com/HHNiOS/hhnios.github.io/blob/main/img/ki.png?raw=true">
-       <span class="navtxt1" style=" color:#ffffff;">Kí iPA</span>
-     </a>
-     
-</nav>
 </body>
 </html>
