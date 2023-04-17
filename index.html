@@ -175,13 +175,6 @@ b {
 }
 
     </style>
-</head>
-
-
-<html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         :root {
             color-scheme: light dark;
@@ -229,18 +222,7 @@ b {
             color: black;
         }
     </style>
-</head>
-
-<body>
-
-
-
-    <!DOCTYPE html>
-    <html>
-
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
+    <style>
             .label {
                 color: white;
                 padding: 1px;
@@ -296,22 +278,7 @@ b {
 
             /* Gray */
         </style>
-    </head>
-
-    <body>
-
-
-
-
-
-
-
-        <!DOCTYPE html>
-        <html>
-
-        <head>
-            <meta name="viewport" content="width=device-width, initial-scale=1">
-            <style>
+    <style>
                 body {
                     margin: 0;
                     font-family: Arial, Helvetica, sans-serif;
@@ -435,10 +402,26 @@ b {
                         background-color: #7A8C90;
                         color: #000000;
                     }
+    </style>
+</head>
 
-                    /* Gray */
-                </style>
-        </head>
+    <body>
+            <script>
+                var close = document.getElementsByClassName("closebtn");
+                var i;
+
+                for (i = 0; i < close.length; i++) {
+                    close[i].onclick = function() {
+                        var div = this.parentElement;
+                        div.style.opacity = "0";
+                        setTimeout(function() {
+                            div.style.display = "none";
+                        }, 600);
+                    }
+                }
+            </script>
+
+    </body>
     <body>
                     <ul style="background: #000000; background: -webkit-linear-gradient(left, #2c6eac, #0022ff); /* từ trái sang phải*/
                     background: -o-linear-gradient(right, #006eff, #003cff); /* kết thúc phía bên phải */
