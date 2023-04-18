@@ -187,6 +187,7 @@
 
 .app-card .list-block .item-inner:after {
     width: 0px;
+    z-index: 1;
 }
 
 .get-button {
@@ -279,6 +280,7 @@
 
 .section-header .item-inner {
     padding: 0px;
+    z-index: 1;
 }
 
 .layout-white .section-header .item-content {
