@@ -5,10 +5,178 @@
     <title>HHN iOS</title>
     <link rel="stylesheet" href="index.js">
     <link rel="stylesheet" href="output.css">
+    <style>
+        .nav {
+    margin-bottom: env(safe-area-inset-bottom);
+    margin-bottom: 0px;
+    padding-bottom: env(safe-area-inset-bottom);
+    left: 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    -webkit-backdrop-filter: saturate(180%) blur(20px);
+    backdrop-filter: saturate(180%) blur(20px);
+    display: flex;
+    overflow-x: auto;
+    text-decoration: none;
+    z-index: 2;
+}
+*, ::before, ::after {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(7, 122, 51, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+user agent stylesheet
+nav {
+    display: block;
+}
+.navtxt1 {
+    color: #007bff;
+    font-size: 13px;
+}
+.nav__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    white-space: nowrap;
+    font-size: 12px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    transition: background-color 0.1s ease-in-out;
+    font-size: 1rem;
+}
+*, ::before, ::after {
+    --tw-translate-x: 0;
+    --tw-translate-y: 0;
+    --tw-rotate: 0;
+    --tw-skew-x: 0;
+    --tw-skew-y: 0;
+    --tw-scale-x: 1;
+    --tw-scale-y: 1;
+    --tw-pan-x: ;
+    --tw-pan-y: ;
+    --tw-pinch-zoom: ;
+    --tw-scroll-snap-strictness: proximity;
+    --tw-ordinal: ;
+    --tw-slashed-zero: ;
+    --tw-numeric-figure: ;
+    --tw-numeric-spacing: ;
+    --tw-numeric-fraction: ;
+    --tw-ring-inset: ;
+    --tw-ring-offset-width: 0px;
+    --tw-ring-offset-color: #fff;
+    --tw-ring-color: rgba(7, 122, 51, 0.5);
+    --tw-ring-offset-shadow: 0 0 #0000;
+    --tw-ring-shadow: 0 0 #0000;
+    --tw-shadow: 0 0 #0000;
+    --tw-shadow-colored: 0 0 #0000;
+    --tw-blur: ;
+    --tw-brightness: ;
+    --tw-contrast: ;
+    --tw-grayscale: ;
+    --tw-hue-rotate: ;
+    --tw-invert: ;
+    --tw-saturate: ;
+    --tw-sepia: ;
+    --tw-drop-shadow: ;
+    --tw-backdrop-blur: ;
+    --tw-backdrop-brightness: ;
+    --tw-backdrop-contrast: ;
+    --tw-backdrop-grayscale: ;
+    --tw-backdrop-hue-rotate: ;
+    --tw-backdrop-invert: ;
+    --tw-backdrop-opacity: ;
+    --tw-backdrop-saturate: ;
+    --tw-backdrop-sepia: ;
+}
+.tab {
+    height: auto;
+    width: 25px;
+}
+.tab3 {
+    height: auto;
+    width: 20px;
+}
+.tab2 {
+    height: auto;
+    width: 20px;
+    left: 1px;
+    right: 1px;
+}
+.icon {
+    height: auto;
+    max-width: 70px;
+    min-width: 40px;
+}
+.icon1 {
+    height: auto;
+    max-width: 2.9em;
+    min-width: none;
+    display: flex; /* Sử dụng flexbox để hiển thị các icon theo hàng ngang */
+    justify-content: space-between; /* Canh các icon cách đều nhau trên hàng ngang */
+    align-items: center; /* Canh các icon theo chiều dọc giữa container */
+    margin-right: 1px; /* Đặt khoảng cách giữa các icon */
+    margin-inline-start: 15px;
+}
+.info {
+    color: #fff;
+    font-size: 1.3rem;
+}
+b { 
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-image: linear-gradient(to top right, #ffffff, #ffffff00);
+}
+        </style>
 </head>
 
 <body>
-    <div data-page="index-4" class="page page-on-center" style="
+    <div data-page="index-4" style="
     background: #000000;
 ">
         <div class="page-content pull-to-refresh-content transitioning" data-ptr-distance="55" style="">
@@ -2249,5 +2417,25 @@
                         
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/inobounce/0.1.5/inobounce.min.js"></script>
-</body>
+<br><br><br><br>
+<nav class="nav">
+  <a href="https://hhnios.github.io" class="nav__link">
+      <embed class="tab" src="https://github.com/HHNiOS/hhnios.github.io/blob/main/img/home.png?raw=true">
+       <span class="navtxt1" style="color:#ffffff;">Trang chủ</span>
+     </a>
+     <a href="#" class="nav__link">
+      <embed class="tab2" src="https://github.com/HHNiOS/hhnios.github.io/blob/main/img/ipa.png?raw=true">
+       <span class="navtxt1" style="color:#d9ff00;">Download iPA</span>
+    </a>
+       <a href="https://hhnios.github.io/dv" class="nav__link">
+        <embed class="tab" src="https://github.com/HHNiOS/hhnios.github.io/blob/main/img/dv.png?raw=true">
+         <span class="navtxt1" style="color:#ffffff;">Dịch vụ</span>
+    </a>
+     <a href="https://hhnios.github.io/sign.html" class="nav__link">
+      <embed class="tab3" src="https://github.com/HHNiOS/hhnios.github.io/blob/main/img/ki.png?raw=true">
+       <span class="navtxt1" style=" color:#ffffff;">Kí iPA</span>
+     </a>
+     
+</nav>
+                            </body>
 </html>
