@@ -4,23 +4,7 @@
         "identifier": "https://hhnios.github.io",
         "sourceURL": "https://hhnios.github.io/app.json",
         "apps": [
-        {
-            "isLanZouCloud": 0,
-            "name": "Hack Liên Quân",
-            "version": "1.49",
-            "iconURL": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqm.png",
-            "downloadURL": "https://archive.org/download/hhnoi-osv-2-1.49.1925084-1680411470/HHN%E2%80%A2iOSv2_1.49.1925084_1680411470.ipa",
-            "versionDescription": "Update 2/4"
-        },
-
-        {
-            "isLanZouCloud": 0,
-            "name": "Hack Aim Liên Quân",
-            "version": "1.49",
-            "iconURL": "https://raw.githubusercontent.com/HHNiOS/hhnbox.github.io/main/img/lqm.png",
-            "downloadURL": "https://archive.org/download/hhno-aim-1.49.1925084-1680411501/HHN%E2%80%A2AIM_1.49.1925084_1680411501.ipa",
-            "versionDescription": "Là bản v2 nhưng được mod thêm aim=)). Update 2/4"
-        },
+        
         
         {
             "isLanZouCloud": 0,
@@ -37,16 +21,40 @@
             "version": "0.1",
             "iconURL": "https://hhnipa.github.io/img/blacklist.png",
             "downloadURL": "https://raw.githubusercontent.com/HHNiPA/HHNiPA/main/Blacklist%20-%20iThunder_1_1677211877.ipa",
-            "versionDescription": "Xoá chặn danh sách đen của Apple"
+            "versionDescription": "Hỗ trợ cho khai thác MDC (iOS15.0-15.7.1, 16.0-16.2)"
         },
-            
+         {
+            "isLanZouCloud": 0,
+            "name": "AppCommander MDC",
+            "version": "0.2.0",
+            "iconURL": "https://github.com/HHNiOS/img/blob/main/480c4ae088f47865624566dcee811e4a.png?raw=true",
+            "downloadURL": "https://github.com/HHNiOS/ipa/blob/main/AppCommander_0.2.0.ipa?raw=true",
+            "versionDescription": "Hỗ trợ cho khai thác MDC (iOS15.0-15.7.1, 16.0-16.2)"
+        },
+
         {
             "isLanZouCloud": 0,
-            "name": "WDBRemoveThreeAppLimit",
+            "name": "Filza MDC",
+            "version": "4.0",
+            "iconURL": "https://tweak-box.com/wp-content/uploads/2019/04/filza-1-120x120.png",
+            "downloadURL": "https://github.com/HHNiOS/ipa/blob/main/Filza%20MDC_4.0.ipa?raw=true",
+            "versionDescription": "Hỗ trợ cho khai thác MDC (iOS15.0-15.7.1, 16.0-16.2)"
+        },
+             {
+            "isLanZouCloud": 0,
+            "name": "Misaka MDC",
+            "version": "1.7.3.6",
+            "iconURL": "https://github.com/HHNiOS/img/blob/main/7855939c26756bb6dab731d63894e519.png?raw=true",
+            "downloadURL": "https://github.com/HHNiOS/ipa/blob/main/misaka_1.7.3.6%20beta.ipa?raw=true",
+            "versionDescription": "Hỗ trợ cho khai thác MDC (iOS15.0-15.7.1, 16.0-16.2)"
+        },
+        {
+            "isLanZouCloud": 0,
+            "name": "WDBRemoveThreeAppLimit MDC",
             "version": "1.0",
             "iconURL": "https://static.appdb.to/images/cydia-1900001094-icon-1675647886.png",
-            "downloadURL": "https://github.com/zhuowei/WDBRemoveThreeAppLimit/releases/download/v1.0/WDBRemoveThreeAppLimit-v1.0.ipa",
-            "versionDescription": ""
+            "downloadURL": "https://github.com/HHNiOS/ipa/blob/main/misaka_1.7.3.6%20beta.ipa?raw=true",
+            "versionDescription": "Hỗ trợ cho khai thác MDC (iOS15.0-15.7.1, 16.0-16.2)"
         },
 
         {
