@@ -14,7 +14,22 @@
             "downloadURL": "https://archive.org/download/fi-fai-4-nut-1.98.1-1682049346/FiFai%204%20N%C3%BAt_1.98.1_1682049346.ipa",
             "versionDescription": "Menu 2 chạm vào icon by HHNiOS"
         },
-
+        {
+            "isLanZouCloud": 0,
+            "name": "Gbox HHN",
+            "version": "3.7",
+            "iconURL": "https://hhnipa.github.io/img/gbox.png",
+            "downloadURL": "https://raw.githubusercontent.com/HHNiPA/HHNiPA/main/Gbox%20HHN_3.7.ipa",
+            "versionDescription": "Ứng dụng cài ipa nhanh chóng"
+        },
+        {
+            "isLanZouCloud": 0,
+            "name": "Esign",
+            "version": "4.7.3.1",
+            "iconURL": "https://hhnipa.github.io/img/esign.png",
+            "downloadURL": "https://raw.githubusercontent.com/HHNiPA/HHNiPA/main/esign_4.7.3.1_unsign.ipa",
+            "versionDescription": "Ứng dụng cài ipa nhanh chóng"
+        },
 {
             "isLanZouCloud": 0,
             "name": "BlackList",
