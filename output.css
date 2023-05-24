@@ -7,6 +7,16 @@
     user-select: none;
 }
 
+.list-block.media-list .item-inner {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 9px;
+    -ms-flex-item-align: stretch;
+    -webkit-align-self: stretch;
+    align-self: stretch;
+    z-index: 1;
+}
+
 .demo-swiper .swiper-slide {
     font-size: 25px;
     font-weight: 300;
