@@ -1,5 +1,5 @@
     {
-        "name": "HHN - iPA",
+        "name": "HHN - iOS",
         "sourceImage": "https://hhnios.github.io/img/hhn.png",
         "identifier": "https://hhnios.github.io",
         "sourceURL": "https://hhnios.github.io/app.json",
@@ -44,6 +44,15 @@
             "version": "0.2.0",
             "iconURL": "https://github.com/HHNiOS/img/blob/main/480c4ae088f47865624566dcee811e4a.png?raw=true",
             "downloadURL": "https://github.com/HHNiOS/ipa/blob/main/AppCommander_0.2.0.ipa?raw=true",
+            "versionDescription": "Hỗ trợ cho khai thác MDC (iOS15.0-15.7.1, 16.0-16.2)"
+        },
+            
+        {
+            "isLanZouCloud": 0,
+            "name": "Santander MDC",
+            "version": "1.0",
+            "iconURL": "https://s.net.vn/vPsi",
+            "downloadURL": "https://github.com/HHNiPA/HHNiPA/raw/main/Santander.ipa",
             "versionDescription": "Hỗ trợ cho khai thác MDC (iOS15.0-15.7.1, 16.0-16.2)"
         },
 
