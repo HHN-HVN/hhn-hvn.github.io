@@ -1,8 +1,8 @@
     {
         "name": "HHN - iOS",
         "sourceImage": "https://hhnios.github.io/img/hhn.png",
-        "identifier": "https://hhnios.github.io",
-        "sourceURL": "https://hhnios.github.io/app.json",
+        "identifier": "https://hhnios.site/",
+        "sourceURL": "https://ipa.hhnios.site/app.json",
         "apps": [
         
         
@@ -69,14 +69,6 @@
             "name": "Misaka MDC",
             "version": "1.7.3.6",
             "iconURL": "https://github.com/HHNiOS/img/blob/main/7855939c26756bb6dab731d63894e519.png?raw=true",
-            "downloadURL": "https://github.com/HHNiOS/ipa/blob/main/misaka_1.7.3.6%20beta.ipa?raw=true",
-            "versionDescription": "Hỗ trợ cho khai thác MDC (iOS15.0-15.7.1, 16.0-16.2)"
-        },
-        {
-            "isLanZouCloud": 0,
-            "name": "WDBRemoveThreeAppLimit MDC",
-            "version": "1.0",
-            "iconURL": "https://static.appdb.to/images/cydia-1900001094-icon-1675647886.png",
             "downloadURL": "https://github.com/HHNiOS/ipa/blob/main/misaka_1.7.3.6%20beta.ipa?raw=true",
             "versionDescription": "Hỗ trợ cho khai thác MDC (iOS15.0-15.7.1, 16.0-16.2)"
         },
