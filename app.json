@@ -1,10 +1,8 @@
     {
-        "META": {
         "name": "HHN - iOS",
         "sourceImage": "https://github.com/WeansHHN/weanshhn.github.io/blob/main/img/hhn.png?raw=true",
         "identifier": "https://hhnios.site/",
-        "sourceURL": "https://ipa.hhnios.site/app.json"
-            },
+        "sourceURL": "https://ipa.hhnios.site/app.json",
         "apps": [
         
         
